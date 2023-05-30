@@ -9,7 +9,7 @@ const Faq = () => {
     return <State key={list.top} list={list} />;
   });
   return (
-    <div className="py-5">
+    <div className="pad">
       <div className="text-center pt-5">
         <h2 className="pseccolor faqtitle fs-1 fw-bold py-2">
           Frequently Asked Questions

@@ -19,7 +19,7 @@ const BeginEnroll = () => {
 
 
   return (
-    <div className="begin-enroll text-center py-5 my-5 pad">
+    <div className="begin-enroll text-center py-lg-5 my-lg-5 pad">
       <h1 className="pseccolor">Your Global Tech Journey Begins Right Here</h1>
 <Element name="beginen">
       <p className="py-4 m-auto navtextcolor">

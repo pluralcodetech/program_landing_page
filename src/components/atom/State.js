@@ -15,7 +15,7 @@ const State = ({list}) => {
     <div className="pad py-2 faqlist">
       {!title && (
         <div
-          className="w-100 py-3 px-4 d-flex align-items-center justify-content-between border-bottom rounded-4"
+          className="w-100 py-3 px-lg-4 d-flex align-items-center justify-content-between border-bottom rounded-4"
           onClick={handleState}
         >
           <h5 className="d-flex align-items-center faqh5">
@@ -27,7 +27,7 @@ const State = ({list}) => {
       )}
       {title && (
         <div
-          className="w-100 faq py-3 px-4 d-flex align-items-center justify-content-between border-bottom rounded-4"
+          className="w-100 faq py-3 px-lg-4 d-flex align-items-center justify-content-between border-bottom rounded-4"
           onClick={handleState}
         >
           <h5 className="d-flex align-items-center faqh5 fw-semibold">
@@ -38,7 +38,7 @@ const State = ({list}) => {
         </div>
       )}
       {title && (
-        <div className="py-3 px-4 faq">
+        <div className="py-3 px-lg-4 faq">
           <p className="faqthin">
            {body}
           </p>

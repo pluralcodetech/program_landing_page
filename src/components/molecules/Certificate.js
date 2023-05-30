@@ -11,7 +11,7 @@ import frame8 from "../../images/Frame 49 (7).png";
 import frame9 from "../../images/Frame 49 (8).png";
 import frame10 from "../../images/Frame 49 (9).png";
 import frame11 from "../../images/Frame 49 (10).png";
-import { Link } from "react-scroll";
+// import { Link } from "react-router-dom";
 import { Element } from "react-scroll";
 
 const Certificate = () => {
@@ -56,10 +56,10 @@ const Certificate = () => {
             aria-labelledby="pills-home-tab"
           >
             <section className="text-center py-4">
-              <h2 className="pseccolor fs-1 fw-semibold">
+              <h2 className="pseccolor fs-1">
                 Certificate Programs
               </h2>
-              <p className="cert pt-md-3 pb-4 m-auto fw-semibold navtextcolor">
+              <p className="cert pt-md-3 pb-4 m-auto navtextcolor">
                 Choose the <span className="ptcolor">12-Weekends</span>{" "}
                 Certificate Course you would like to learn and click the link
                 underneath to chat with the Student Advisor and begin your
@@ -68,9 +68,9 @@ const Certificate = () => {
             </section>
             <section className="row gap-4 seccert  justify-content-between">
               <div className="col-sm-12 col-md-12 col-lg-3 imgfolder shadow-lg" data-aos="zoom-in-up" data-aos-duration="2000">
-                <Link to="https://wa.me/2347083153185?text=I'm%20interested%20in%20your%20Product%20Design%20Course">
+                <a href="https://wa.me/2347083153185?text=I'm%20interested%20in%20your%20Product%20Design%20Course">
                   <Logo src={frame1} className="w-100" />
-                </Link>
+                </a>
                 <div className="pt-3 d-flex flex-column">
                   <div className="certh">
                     <h5 className="">Product Design (UI / UX)</h5>
@@ -85,23 +85,23 @@ const Certificate = () => {
                       name="whatsapp"
                       color="#F8991D"
                     ></box-icon>
-                    <Link
-                      to="https://wa.me/2347083153185?text=I'm%20interested%20in%20your%20Product%20Design%20Course"
+                    <a
+                      href="https://wa.me/2347083153185?text=I'm%20interested%20in%20your%20Product%20Design%20Course"
                       className="ptcolor text-decoration-none ps-1"
                     >
                       Speak to Advisor
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>
 
               <div className="col-sm-12 col-md-12 col-lg-3 imgfolder shadow-lg" data-aos="zoom-in-up" data-aos-duration="2000">
-                <Link
-                  to="https://wa.me/2349169190508?text=I'm%20interested%20in%20your%20Product%20Management%20Course
+                <a
+                  href="https://wa.me/2349169190508?text=I'm%20interested%20in%20your%20Product%20Management%20Course
 "
                 >
                   <Logo src={frame2} className="w-100" />
-                </Link>
+                </a>
                 <div className="pt-3 d-flex flex-column">
                   <div className="certh">
                     <h5 className="">Product Managment</h5>
@@ -115,20 +115,20 @@ const Certificate = () => {
                       name="whatsapp"
                       color="#F8991D"
                     ></box-icon>
-                    <Link
-                      to="https://wa.me/2349169190508?text=I'm%20interested%20in%20your%20Product%20Management%20Course
+                    <a
+                      href="https://wa.me/2349169190508?text=I'm%20interested%20in%20your%20Product%20Management%20Course
                     "
                       className="ptcolor text-decoration-none ps-1"
                     >
                       Speak to Advisor
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>
               <div className="col-sm-12 col-md-12 col-lg-3 imgfolder shadow-lg" data-aos="zoom-in-up" data-aos-duration="2000">
-                <Link to="https://wa.me/2349134244201?text=I'm%20interested%20in%20your%20Product%20Business%20Analytics">
+                <a href="https://wa.me/2349134244201?text=I'm%20interested%20in%20your%20Product%20Business%20Analytics">
                   <Logo src={frame3} className="w-100" />
-                </Link>
+                </a>
                 <div className="pt-3 d-flex flex-column">
                   <div className="certh ">
                     <h5 className="">Business Analysis</h5>
@@ -143,20 +143,20 @@ const Certificate = () => {
                       name="whatsapp"
                       color="#F8991D"
                     ></box-icon>
-                    <Link
-                      to="https://wa.me/2349134244201?text=I'm%20interested%20in%20your%20Product%20Business%20Analytics:080"
+                    <a
+                      href="https://wa.me/2349134244201?text=I'm%20interested%20in%20your%20Product%20Business%20Analytics:080"
                       className="ptcolor text-decoration-none ps-1"
                     >
                       Speak to Advisor
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>
 
               <div className="col-sm-12 col-md-12 col-lg-3 imgfolder shadow-lg" data-aos="zoom-in-up" data-aos-duration="2000">
-                <Link to="https://wa.me/2349169190508?text=I'm%20interested%20in%20your%20Project%20Management%20Course">
+                <a href="https://wa.me/2349169190508?text=I'm%20interested%20in%20your%20Project%20Management%20Course">
                   <Logo src={frame4} className="w-100" />
-                </Link>
+                </a>
                 <div className="pt-3 d-flex flex-column">
                   <div className="certh">
                     <h5 className="">Agile Project Management</h5>
@@ -171,12 +171,12 @@ const Certificate = () => {
                       name="whatsapp"
                       color="#F8991D"
                     ></box-icon>
-                    <Link
-                      to="https://wa.me/2349169190508?text=I'm%20interested%20in%20your%20Project%20Management%20Course"
+                    <a
+                      href="https://wa.me/2349169190508?text=I'm%20interested%20in%20your%20Project%20Management%20Course"
                       className="ptcolor text-decoration-none ps-1"
                     >
                       Speak to Advisor
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -184,9 +184,9 @@ const Certificate = () => {
 
             <section className="row gap-4 seccert pb-5 mb-5 justify-content-center align-items-center">
               <div className="col-sm-12 col-md-12 col-lg-4 imgfolder shadow-lg" data-aos="zoom-in-up" data-aos-duration="2000">
-                <Link to="https://wa.me/2347040910513?text=I'm%20interested%20in%20your%20Software%20Development%20Course">
+                <a href="https://wa.me/2347040910513?text=I'm%20interested%20in%20your%20Software%20Development%20Course">
                   <Logo src={frame5} className="w-100" />
-                </Link>
+                </a>
                 <div className="pt-3 d-flex flex-column">
                   <div className="certh">
                     <h5 className="">Data Analytics</h5>
@@ -201,20 +201,20 @@ const Certificate = () => {
                       name="whatsapp"
                       color="#F8991D"
                     ></box-icon>
-                    <Link
-                      to="https://wa.me/2347040910513?text=I'm%20interested%20in%20your%20Software%20Development%20Course"
+                    <a
+                      href="https://wa.me/2347040910513?text=I'm%20interested%20in%20your%20Software%20Development%20Course"
                       className="ptcolor text-decoration-none ps-1"
                     >
                       Speak to Advisor
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>
 
               <div className="col-sm-12 col-md-12 col-lg-4 imgfolder shadow-lg" data-aos="zoom-in-up" data-aos-duration="2000">
-                <Link to="https://wa.me/2347040910513?text=I'm%20interested%20in%20your%20Software%20Development%20Course">
+                <a href="https://wa.me/2347040910513?text=I'm%20interested%20in%20your%20Software%20Development%20Course">
                   <Logo src={frame6} className="w-100" />
-                </Link>
+                </a>
                 <div className="pt-3 d-flex flex-column">
                   <div className="certh">
                     <h5 className="">Front-End Development</h5>
@@ -229,20 +229,20 @@ const Certificate = () => {
                       name="whatsapp"
                       color="#F8991D"
                     ></box-icon>
-                    <Link
-                      to="https://wa.me/2347040910513?text=I'm%20interested%20in%20your%20Software%20Development%20Course"
+                    <a
+                      href="https://wa.me/2347040910513?text=I'm%20interested%20in%20your%20Software%20Development%20Course"
                       className="ptcolor text-decoration-none ps-1"
                     >
                       Speak to Advisor
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>
 
               <div className="col-sm-12 col-md-12 col-lg-4 imgfolder shadow-lg" data-aos="zoom-in-up" data-aos-duration="2000">
-                <Link to="https://wa.me/2347083153185?text=I'm%20interested%20in%20your%20Product%20Cloud%20Computing">
+                <a href="https://wa.me/2347083153185?text=I'm%20interested%20in%20your%20Product%20Cloud%20Computing">
                   <Logo src={frame7} className="w-100" />
-                </Link>
+                </a>
                 <div className="pt-3 d-flex flex-column">
                   <div className="certh">
                     <h5 className="">Cloud Computing</h5>
@@ -257,12 +257,12 @@ const Certificate = () => {
                       name="whatsapp"
                       color="#F8991D"
                     ></box-icon>
-                    <Link
-                      to="https://wa.me/2347083153185?text=I'm%20interested%20in%20your%20Product%20Cloud%20Computing"
+                    <a
+                      href="https://wa.me/2347083153185?text=I'm%20interested%20in%20your%20Product%20Cloud%20Computing"
                       className="ptcolor text-decoration-none ps-1"
                     >
                       Speak to Advisor
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -275,18 +275,18 @@ const Certificate = () => {
             aria-labelledby="pills-profile-tab"
           >
             <section className="text-center py-4">
-              <h2 className="pseccolor fs-1 fw-semibold">Diploma Programs</h2>
-              <p className="cert pt-md-3 pb-4 m-auto fw-semibold navtextcolor">
+              <h2 className="pseccolor fs-1">Diploma Programs</h2>
+              <p className="cert pt-md-3 pb-4 m-auto navtextcolor">
                 Choose the <span className="ptcolor">20-Weekends</span> Diploma
-                Program you would like to learn and click the link underneath to
+                Program you would like to learn and click the Link underneath to
                 chat with the Student Advisor and begin your enrollment.
               </p>
             </section>
             <section className="row gap-4 seccert pt-3 pb-5 mb-5 justify-content-between">
               <div className="col-sm-12 col-md-12 col-lg-3 imgfolder shadow-lg" data-aos="zoom-in-up" data-aos-duration="2000">
-                <Link to="https://wa.me/2349169190508?text=I%27m%20interested%20in%20your%20Product%20Management%20Diploma">
+                <a href="https://wa.me/2349169190508?text=I%27m%20interested%20in%20your%20Product%20Management%20Diploma">
                   <Logo src={frame8} className="w-100" />
-                </Link>
+                </a>
                 <div className="pt-3 d-flex flex-column">
                   <div className="certh">
                     <h5 className="">Diploma in Product Mgt.</h5>
@@ -301,20 +301,20 @@ const Certificate = () => {
                       name="whatsapp"
                       color="#F8991D"
                     ></box-icon>
-                    <Link
-                      to="https://wa.me/2349169190508?text=I%27m%20interested%20in%20your%20Product%20Management%20Diploma"
+                    <a
+                      href="https://wa.me/2349169190508?text=I%27m%20interested%20in%20your%20Product%20Management%20Diploma"
                       className="ptcolor text-decoration-none ps-1"
                     >
                       Speak to Advisor
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>
 
               <div className="col-sm-12 col-md-12 col-lg-3 imgfolder shadow-lg" data-aos="zoom-in-up" data-aos-duration="2000">
-                <Link to="https://wa.me/2349120733972?text=I%27m%20interested%20in%20your%20Data%20Analytics%20Diploma">
+                <a href="https://wa.me/2349120733972?text=I%27m%20interested%20in%20your%20Data%20Analytics%20Diploma">
                   <Logo src={frame9} className="w-100" />
-                </Link>
+                </a>
                 <div className="pt-3 d-flex flex-column">
                   <div className="certh">
                     <h5 className="">Diploma in Data Analytics </h5>
@@ -329,19 +329,19 @@ const Certificate = () => {
                       name="whatsapp"
                       color="#F8991D"
                     ></box-icon>
-                    <Link
-                      to="https://wa.me/2349120733972?text=I%27m%20interested%20in%20your%20Data%20Analytics%20Diploma"
+                    <a
+                      href="https://wa.me/2349120733972?text=I%27m%20interested%20in%20your%20Data%20Analytics%20Diploma"
                       className="ptcolor text-decoration-none ps-1"
                     >
                       Speak to Advisor
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>
               <div className="col-sm-12 col-md-12 col-lg-3 imgfolder shadow-lg" data-aos="zoom-in-up" data-aos-duration="2000">
-                <Link to="https://wa.me/2347083153185?text=I'm%20interested%20in%20your%20Product%20Cloud%20Computing">
+                <a href="https://wa.me/2347083153185?text=I'm%20interested%20in%20your%20Product%20Cloud%20Computing">
                   <Logo src={frame10} className="w-100" />
-                </Link>
+                </a>
                 <div className="pt-3 d-flex flex-column">
                   <div className="certh ">
                     <h5 className="">Diploma in Cloud Dev.</h5>
@@ -356,20 +356,20 @@ const Certificate = () => {
                       name="whatsapp"
                       color="#F8991D"
                     ></box-icon>
-                    <Link
-                      to="https://wa.me/2347083153185?text=I'm%20interested%20in%20your%20Product%20Cloud%20Computing"
+                    <a
+                      href="https://wa.me/2347083153185?text=I'm%20interested%20in%20your%20Product%20Cloud%20Computing"
                       className="ptcolor text-decoration-none ps-1"
                     >
                       Speak to Advisor
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>
 
               <div className="col-sm-12 col-md-12 col-lg-3 imgfolder shadow-lg" data-aos="zoom-in-up" data-aos-duration="2000">
-                <Link to="https://wa.me/2347040910513?text=I'm%20interested%20in%20your%20Full%20Stack%20Course">
+                <a href="https://wa.me/2347040910513?text=I'm%20interested%20in%20your%20Full%20Stack%20Course">
                   <Logo src={frame11} className="w-100" />
-                </Link>
+                </a>
                 <div className="pt-3 d-flex flex-column">
                   <div className="certh">
                     <h5 className="fw-semibold">Diploma in Fullstack Dev.</h5>
@@ -384,12 +384,12 @@ const Certificate = () => {
                       name="whatsapp"
                       color="#F8991D"
                     ></box-icon>
-                    <Link
-                      to="https://wa.me/2347040910513?text=I'm%20interested%20in%20your%20Full%20Stack%20Course"
+                    <a
+                      href="https://wa.me/2347040910513?text=I'm%20interested%20in%20your%20Full%20Stack%20Course"
                       className="ptcolor text-decoration-none ps-1"
                     >
                       Speak to Advisor
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>

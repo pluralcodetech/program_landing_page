@@ -32,10 +32,10 @@ const Tuition = () => {
   return (
     <div className="pad">
       <Element name="tuit">
-        <h1 className="pseccolor text-center pb-4">Tuition Fees</h1>
+        <h1 className="pseccolor text-center pb-2 pb-lg-4">Tuition Fees</h1>
         <div className="row gap-3">
           <div className="course-box col">
-            <h5 className="tuitc fs-5 text-center py-3">Certificate Courses</h5>
+            <h5 className="tuitc fs-5 text-center py-1 py-lg-3">Certificate Courses</h5>
             <table className="w-100">
               <thead>
                 <tr className="tuitc">
@@ -86,7 +86,7 @@ const Tuition = () => {
             </table>
           </div>
           <div className="course-box col">
-            <h5 className="tuitc fs-5 text-center py-3">Diploma Courses</h5>
+            <h5 className="tuitc fs-5 text-center py-1 py-lg-3">Diploma Courses</h5>
             <table className="w-100">
               <thead>
                 <tr className="tuitc">
@@ -120,7 +120,7 @@ const Tuition = () => {
           Pluralcode often has discount scholarship programs running from time
           to time, if you hurry, you may qualify for one.
         </p>
-        <div className="text-center py-5">
+        <div className="text-center py-3 py-lg-5">
           <Link to="beginen" smooth={true}>
             <Button
               className="btn button px-5 pbcolor"
