@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 import { Element } from 'react-scroll'
 
 const Tuition = () => {
-    const [fees, setFees] =useState([])
+    const [fees, setFees] =useState({})
 
 useEffect(()=>{
 async function getApi(){
