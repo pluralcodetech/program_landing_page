@@ -11,7 +11,7 @@ import UpperPart from '../molecules/UpperPart'
 import VideoPart from '../molecules/VideoPart'
 import WhySection from '../molecules/WhySection'
 import BeginEnroll from '../molecules/BeginEnroll'
-// import Tuition from '../molecules/Tuition'
+import Tuition from '../molecules/Tuition'
 
 const Home = () => {
   return (
@@ -26,7 +26,7 @@ const Home = () => {
       <Press/>
       <Enroll/>
       <BeginEnroll/>
-      {/* <Tuition/> */}
+      <Tuition/>
       <Faq/>
       <Footer/>
     </div>

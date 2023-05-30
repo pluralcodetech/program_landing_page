@@ -123,6 +123,7 @@
   background-color:#F5F6FA;
 
 }
+
 .lineul{
   border-bottom: 5px solid #222057;
 }
@@ -835,7 +836,19 @@ tr{
   .tuitcc{
     font-size: 13px;
   }
+  
+
  
+}
+@media (max-width:600px) {
+  .lineul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  #pills-home-tab, #pills-profile-tab{
+    font-size: 14px;
+  }
 }
 @media (min-width:280px) and (max-width:281px) {
   .encol{
