@@ -17,14 +17,14 @@ const Footer = () => {
   return (
     <div className="pad pt-5 foot w-100 d-flex flex-column flex-lg-row gap-5 justify-content-between">
       <div>
-        <Logo src={plogo} />
+        <Logo src={plogo} className="ftlogo"/>
         <p className="pt-4 py-2 foottp">Your global tech journey begins here. Master the skills you need to start.</p>
         <div className="d-flex gap-3">
-          <Link><Logo src={inst} className="logfoot" /></Link>
-          <Link><Logo src={face} className="logfoot" /></Link>
-          <Link><Logo src={twit} className="logfoot" /></Link>
-          <Link><Logo src={link} className="logfoot" /></Link>
-          <Link><Logo src={tik}  className="logfoot"/></Link>
+          <a href="https://instagram.com/pluralcode_academy?igshid=MzRlODBiNWFlZA=="><Logo src={inst} className="logfoot" /></a>
+          <a href="https://www.facebook.com/PlcTechAcademy?mibextid=LQQJ4d"><Logo src={face} className="logfoot" /></a>
+          <a href="https://twitter.com/pluralcode?s=21&t=B1MuR2VoGVHj3cpdZyDZzw"><Logo src={twit} className="logfoot" /></a>
+          <a href="https://www.linkedin.com/company/pluralcode-technologies/"><Logo src={link} className="logfoot" /></a>
+          <a href="https://www.tiktok.com/@pluralcodeacademy?_t=8cARWxT1YVK&_r=1"><Logo src={tik}  className="logfoot"/></a>
         </div>
       </div>
 
@@ -53,7 +53,7 @@ const Footer = () => {
           <Link to="#">School of Engineering</Link>
         </div>
         <div className="footw d-flex flex-column gap-2">
-          <h5 className="fw-semibold">Company</h5>
+          <h5 className="">Company</h5>
           <Link to="#">Why Pluralcode</Link>
           <Link to="#">Talk to Student Advisor</Link>
           <Link to="#">Become a Mentor</Link>
@@ -79,10 +79,10 @@ const Footer = () => {
         <div className="d-flex flex-column gap-2">
           <h5 className="">Contact</h5>
           <div className="d-flex gap-3 align-items-center"><Logo src={tel}/><Link to="#">+(234) 708-315-3185.</Link></div>
-          <div className="d-flex gap-3 align-items-center"><Logo src={tel}/><Link to="#">+(234) 813-152-9862.</Link></div>
-          <div className="d-flex gap-3 align-items-center"><Logo src={twitout} /><Link to="#">pluralcode</Link></div>
-          <div className="d-flex gap-3 align-items-center"><Logo src={inout} /><Link to="#">pluralcode_academy</Link></div>
-          <div className="d-flex gap-3 align-items-center"><Logo src={faceout}/><Link to="#">pluralcode_academy</Link></div>
+          <div className="d-flex gap-3 align-items-center"><Logo src={tel}/><a href="tel:+2348131529862">+(234) 813-152-9862.</a></div>
+          <div className="d-flex gap-3 align-items-center"><Logo src={twitout} /><a href="https://twitter.com/pluralcode?s=21&t=B1MuR2VoGVHj3cpdZyDZzw">pluralcode</a></div>
+          <div className="d-flex gap-3 align-items-center"><Logo src={inout} /><a href="https://instagram.com/pluralcode_academy?igshid=MzRlODBiNWFlZA==">pluralcode_academy</a></div>
+          <div className="d-flex gap-3 align-items-center"><Logo src={faceout}/><a href="https://www.facebook.com/PlcTechAcademy?mibextid=LQQJ4d">pluralcode_academy</a></div>
           <div className="d-flex gap-3 align-items-center"><Logo src={email}/><Link to="#">support@pluralcode.academy</Link></div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 import Logo from '../atom/Logo';
 import pix1 from '../../images/Frame 49.png';
 import pix2 from '../../images/Frame 49 (1).png';
@@ -17,13 +17,13 @@ const Press = () => {
           <div className="pt-3 d-flex flex-column justify-content-between">
             <div className='ph'>
 
-            <h5 className='fw-semibold'>Techpoint Africa</h5>
+            <h5 className=''>Techpoint Africa</h5>
             <p className="text">
             Pluralcode partners with Finquest Finance to launch ‘Learn Now, Pay Later’
             </p>
             </div>
             <div className="">
-              <Link to="#" className="ptcolor text-decoration-none ps-1">
+              <Link to="https://techpoint.africa/2023/01/27/pluralcode-partners-with-finquest-finance-to-launch-learn-now-pay-later-for-nigerian-tech-enthusiasts/" className="ptcolor text-decoration-none ps-1">
                 View Magazine
               </Link>
             </div>
@@ -35,11 +35,11 @@ const Press = () => {
           <div className="pt-3 d-flex flex-column justify-content-between">
             <div className='ph'>
 
-            <h5 className='fw-semibold'>TechNext NG</h5>
+            <h5 className=''>TechNext NG</h5>
             <p className="text">Pluralcode, is on a mission to build Africa's largest tech school</p>
             </div>
             <div className="">
-              <Link to="#" className="ptcolor text-decoration-none">
+              <Link to="https://technext.ng/2023/01/26/pluralcode-mission-africa-tech-school/" className="ptcolor text-decoration-none">
                 View Magazine
               </Link>
             </div>
@@ -51,13 +51,13 @@ const Press = () => {
           <div className="pt-3 d-flex flex-column justify-content-between">
             <div className='ph'>
 
-            <h5 className='fw-semibold'>Business Day</h5>
+            <h5 className=''>Business Day</h5>
             <p className="text">
             Introducing Pluralcode, a fast-growing Ed-tech company.
             </p>
             </div>
             <div className="">
-              <Link to="" className="ptcolor text-decoration-none">
+              <Link to="https://businessday.ng/sponsored/article/nigerian-ed-tech-company-pluralcode-is-on-a-mission-to-build-africas-largest-tech-school/" className="ptcolor text-decoration-none">
                 View Magazine
               </Link>
             </div>

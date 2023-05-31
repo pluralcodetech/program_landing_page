@@ -31,7 +31,7 @@ const BeginEnroll = () => {
       <form className="begin-form">
         <h2 className="pseccolor">Begin Enrollment</h2>
         <div className="text-start d-flex flex-column my-3">
-          <label>Full Name</label>
+          <label>Full Name*</label>
           <input type="text" placeholder="Enter full name" className="form-control bg"/>
         </div>
         <div className="text-start d-flex flex-column my-3">
@@ -39,7 +39,7 @@ const BeginEnroll = () => {
           <input type="email" placeholder="Enter email" className="form-control bg"/>
         </div>
         <div className="text-start d-flex flex-column my-3">
-          <label>Course of Interest</label>
+          <label>Course of Interest*</label>
           <select className="form-select coursecol begin-course" ref={cref}>
             <option className="">Course of Interest</option>
 
@@ -57,7 +57,7 @@ const BeginEnroll = () => {
           />
         </div>
 
-        <Button className="btn button px-5 pbcolor my-3" children="Book Section" />
+        <Button className="btn button px-5 pbcolor my-3" children="Book Session" />
 
         <div className="nb">
         Pluralcode will never sell, share or mismanage your data. We only request your contact to allow your advisor to reach out to you promptly and also share important course information.

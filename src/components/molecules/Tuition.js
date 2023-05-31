@@ -27,13 +27,13 @@ const Tuition = () => {
     getApi();
   }, []);
 
-  console.log(fees);
+  const numFor = Intl.NumberFormat('en-US');
 
   return (
-    <div className="pad">
+    <div className="pad ">
       <Element name="tuit">
         <h1 className="pseccolor text-center pb-2 pb-lg-4">Tuition Fees</h1>
-        <div className="row gap-3">
+        <div className="row gap-3 m-0">
           <div className="course-box col">
             <h5 className="tuitc fs-5 text-center py-1 py-lg-3">Certificate Courses</h5>
             <table className="w-100">
@@ -49,38 +49,38 @@ const Tuition = () => {
               <tbody>
                 <tr className="tuitcc">
                   <td>{fees?.result?.cloud[0]["name"]}</td>
-                  <td>&#8358;{fees?.result?.cloud[0]["course_fee"]}</td>
-                  <td>&#8358;{fees?.result?.cloud[0]["part_payment"]}</td>
+                  <td>&#8358;{numFor.format(fees?.result?.cloud[0]["course_fee"])}</td>
+                  <td>&#8358;{numFor.format(fees?.result?.cloud[0]["part_payment"])}</td>
                 </tr>
                 <tr className="tuitcc">
                   <td>{fees?.result?.data[0]["name"]}</td>
-                  <td>&#8358;{fees?.result?.data[0]["course_fee"]}</td>
-                  <td>&#8358;{fees?.result?.data[0]["part_payment"]}</td>
+                  <td>&#8358;{numFor.format(fees?.result?.data[0]["course_fee"])}</td>
+                  <td>&#8358;{numFor.format(fees?.result?.data[0]["part_payment"])}</td>
                 </tr>
                 <tr className="tuitcc">
                   <td>{fees?.result?.data[1]["name"]}</td>
-                  <td>&#8358;{fees?.result?.data[1]["course_fee"]}</td>
-                  <td>&#8358;{fees?.result?.data[1]["part_payment"]}</td>
+                  <td>&#8358;{numFor.format(fees?.result?.data[1]["course_fee"])}</td>
+                  <td>&#8358;{numFor.format(fees?.result?.data[1]["part_payment"])}</td>
                 </tr>
                 <tr className="tuitcc">
                   <td>{fees?.result?.product[0]["name"]}</td>
-                  <td>&#8358;{fees?.result?.product[0]["course_fee"]}</td>
-                  <td>&#8358;{fees?.result?.product[0]["part_payment"]}</td>
+                  <td>&#8358;{numFor.format(fees?.result?.product[0]["course_fee"])}</td>
+                  <td>&#8358;{numFor.format(fees?.result?.product[0]["part_payment"])}</td>
                 </tr>
                 <tr className="tuitcc">
                   <td>{fees?.result?.product[1]["name"]}</td>
-                  <td>&#8358;{fees?.result?.product[1]["course_fee"]}</td>
-                  <td>&#8358;{fees?.result?.product[1]["part_payment"]}</td>
+                  <td>&#8358;{numFor.format(fees?.result?.product[1]["course_fee"])}</td>
+                  <td>&#8358;{numFor.format(fees?.result?.product[1]["part_payment"])}</td>
                 </tr>
                 <tr className="tuitcc">
                   <td>{fees?.result?.product[2]["name"]}</td>
-                  <td>&#8358;{fees?.result?.product[2]["course_fee"]}</td>
-                  <td>&#8358;{fees?.result?.product[2]["part_payment"]}</td>
+                  <td>&#8358;{numFor.format(fees?.result?.product[2]["course_fee"])}</td>
+                  <td>&#8358;{numFor.format(fees?.result?.product[2]["part_payment"])}</td>
                 </tr>
                 <tr className="tuitcc">
                   <td>{fees?.result?.software[0]["name"]}</td>
-                  <td>&#8358;{fees?.result?.software[0]["course_fee"]}</td>
-                  <td>&#8358;{fees?.result?.software[0]["part_payment"]}</td>
+                  <td>&#8358;{numFor.format(fees?.result?.software[0]["course_fee"])}</td>
+                  <td>&#8358;{numFor.format(fees?.result?.software[0]["part_payment"])}</td>
                 </tr>
               </tbody>
             </table>
@@ -99,18 +99,18 @@ const Tuition = () => {
                  
             <tr className="tuitcc">
             <td>{fees?.diploma?.diploma_software[0]["name"]}</td>
-            <td>&#8358;{fees?.diploma?.diploma_software[0]["course_fee"]}</td>
-            <td>&#8358;{fees?.diploma?.diploma_software[0]["part_payment"]}</td>
+            <td>&#8358;{numFor.format(fees?.diploma?.diploma_software[0]["course_fee"])}</td>
+            <td>&#8358;{numFor.format(fees?.diploma?.diploma_software[0]["part_payment"])}</td>
             </tr>
             <tr className="tuitcc">
             <td>{fees?.diploma?.diploma_cloud[0]["name"]}</td>
-            <td>&#8358;{fees?.diploma?.diploma_cloud[0]["course_fee"]}</td>
-            <td>&#8358;{fees?.diploma?.diploma_cloud[0]["part_payment"]}</td>
+            <td>&#8358;{numFor.format(fees?.diploma?.diploma_cloud[0]["course_fee"])}</td>
+            <td>&#8358;{numFor.format(fees?.diploma?.diploma_cloud[0]["part_payment"])}</td>
             </tr>
             <tr className="tuitcc">
             <td>{fees?.diploma?.diploma_data[0]["name"]}</td>
-            <td>&#8358;{fees?.diploma?.diploma_data[0]["course_fee"]}</td>
-            <td>&#8358;{fees?.diploma?.diploma_data[0]["part_payment"]}</td>
+            <td>&#8358;{numFor.format(fees?.diploma?.diploma_data[0]["course_fee"])}</td>
+            <td>&#8358;{numFor.format(fees?.diploma?.diploma_data[0]["part_payment"])}</td>
             </tr>
             </tbody>
             </table>

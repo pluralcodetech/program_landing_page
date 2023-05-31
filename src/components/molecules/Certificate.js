@@ -184,7 +184,7 @@ const Certificate = () => {
 
             <section className="row gap-4 seccert pb-5 mb-5 justify-content-center align-items-center">
               <div className="col-sm-12 col-md-12 col-lg-4 imgfolder shadow-lg" data-aos="zoom-in-up" data-aos-duration="2000">
-                <a href="https://wa.me/2347040910513?text=I'm%20interested%20in%20your%20Software%20Development%20Course">
+                <a href="https://wa.me/2349120733972?text=I%27m%20interested%20in%20your%20Data%20Analytics%20Diploma">
                   <Logo src={frame5} className="w-100" />
                 </a>
                 <div className="pt-3 d-flex flex-column">
@@ -202,7 +202,7 @@ const Certificate = () => {
                       color="#F8991D"
                     ></box-icon>
                     <a
-                      href="https://wa.me/2347040910513?text=I'm%20interested%20in%20your%20Software%20Development%20Course"
+                      href="https://wa.me/2349120733972?text=I%27m%20interested%20in%20your%20Data%20Analytics%20Diploma"
                       className="ptcolor text-decoration-none ps-1"
                     >
                       Speak to Advisor
@@ -344,7 +344,7 @@ const Certificate = () => {
                 </a>
                 <div className="pt-3 d-flex flex-column">
                   <div className="certh ">
-                    <h5 className="">Diploma in Cloud Dev.</h5>
+                    <h5 className="">Diploma in Cloud Computing.</h5>
                     <p className="text">
                       Master Cloud Computing and development with AWS and MS
                       Azure.

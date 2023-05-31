@@ -46,7 +46,13 @@
   border: 1px solid #F8991D;
 }
 .logosize{
-  width: 30%;
+  width: 20%;
+}
+.logosize img {
+  width: 100%;
+}
+.ftlogo{
+  width: 50%;
 }
 .pad{
   padding: 2rem 5rem;
@@ -85,15 +91,20 @@
 }
 .normal{
   width: 400px;
-  font-weight: 600;
   padding-top: 0.7rem;
+  font-family: Gilroy-medium;
 }
 
 .navbtnone{
   width: 200px;
 }
 .navbtntwo{
-  width: 72%;
+  justify-content: space-between;
+  margin: auto;
+}
+.navbtntwo a{
+
+  font-family: Gilroy-medium;
 }
 .nav-tabs {
   --bs-nav-tabs-border-width: 1px;
@@ -234,6 +245,8 @@ animation: glow 2s ease-in-out infinite alternate;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border-radius: 1rem;
+
 }
 .why p{
 
@@ -250,6 +263,7 @@ animation: glow 2s ease-in-out infinite alternate;
   height: 370px;
   object-fit: cover;
   border-radius: 1rem;
+  border: none;
 }
 .whh{
   padding-bottom: 10rem;
@@ -270,9 +284,9 @@ animation: glow 2s ease-in-out infinite alternate;
   border-radius: 15px;
 }
 .top p{
-  width: 78%;
+  width: 70%;
   font-family: Gilroy-regular;
-  font-size: 20px;
+  /* font-size: 20px; */
 }
 .accbox{
   width: auto;
@@ -358,6 +372,9 @@ animation: glow 2s ease-in-out infinite alternate;
 .upbg{
   background-color: #FFFDFA;
 }
+.vh{
+  height: 90vh;
+}
 
 .certbg{
   background: linear-gradient(347.7deg, rgba(237, 237, 241, 0.42) 4.38%, rgba(255, 255, 255, 0) 69.1%)
@@ -437,7 +454,7 @@ animation: glow 2s ease-in-out infinite alternate;
   font-family: Gilroy-medium;
 }
 .begin-form{
-  width:60%;
+  width:50%;
   margin:2rem auto;
   background: #FFFFFF;
   box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.16);
@@ -459,14 +476,14 @@ animation: glow 2s ease-in-out infinite alternate;
   border: 1px solid rgba(34, 32, 87, 0.28);
   box-shadow: 0px -8.87px 20px -2.21742px rgba(16, 24, 40, 0.05), 0px 3.54787px 81px -2.6609px rgba(16, 24, 40, 0.05);
   border-radius: 8px;
-  font-size: 18px;
+  font-size: 12px;
   padding: 2rem;
   margin: 1.5rem 0;
 }
 .course-box{
   border: 1px solid #000000;
 border-radius: 24px;
-padding: 2rem;
+padding: 1.5rem;
 }
 .tuitc{
   color: #232057;
@@ -503,9 +520,22 @@ tr{
 .upz{
   z-index: 1;
 }
-
+.bb{
+  width: 100%;
+}
 
 @media (min-width:1500px) {
+  .bold{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 4.5rem;
+    font-family: Gilroy-bold;
+  }
+  .normal{
+    width: 600px;
+    padding-top: 0.7rem;
+    font-size: 22px;
+  }
   .whyh{
     height: 500px
   }
@@ -566,7 +596,12 @@ tr{
       margin-top: 12%;
       
     }
-  
+    .logosize{
+      width: 150px;
+    }
+    .hamsize{
+      width: 30px;
+    }
     .imgfolder{
       width: 100%;
       height: auto;
@@ -631,18 +666,19 @@ tr{
     .why{
       line-height: 1.5rem;
       font-size: 14px;
+      padding: 3.5rem 1rem;
     }
     .whyh{
       height: 100%;
     }
     .whh{
-      margin-bottom: 13rem;
+      margin-bottom: 16.5rem;
     }
     .yh{
       padding-top: 0;
     }
     .ac{
-      width: 50%;
+      width: 100%;
       margin: auto;
     }
     
@@ -650,21 +686,21 @@ tr{
       width: 90%;
       margin: auto;
       margin-top:rem;
-      padding: 0.3rem 2rem;
+      padding: 0.3rem 1rem;
       position: absolute;
-      top: -37%;
+      top: -42%;
       left: 5%;
       box-shadow: 0px 2px 16px rgba(255, 255, 255, 0.4);
       border-radius: 15px;
       font-size: 14px;
     }
-    .top h1{
+    .top h2{
       font-size: 20px;
       padding-top: 1rem;
     }
     .top p{
       width: 100%;
-      font-size: 15px;
+      font-size: 14px;
     }
     .qtone, .qttwo{
       width: 20px;
@@ -849,6 +885,14 @@ tr{
 
  
 }
+@media (min-width:700px) and (max-width:920px) {
+  .whh{
+    margin-bottom:1rem;
+  }
+  .top{
+    top:-18%;
+  }
+}
 @media (max-width:600px) {
   .lineul{
     width: 100%;
@@ -870,9 +914,9 @@ tr{
     width: 80%;
   }
   .whh{
-    margin-bottom: 18rem;
+    margin-bottom: 21rem;
   }
   .top{
-    top: -44%;
+    top: -48.5%;
   }
 }

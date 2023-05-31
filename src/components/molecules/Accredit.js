@@ -5,9 +5,9 @@ import acc from "../../images/Frame 60917.png";
 import qt1 from "../../images/quoteone.png";
 import qt2 from "../../images/quotetwo.png";
 import sayimg from "../../images/Group 14 (1).png";
+import sayimg1 from "../../images/wom.png";
 import sayimg2 from "../../images/Group 153.png";
 import sayimg3 from "../../images/Group 153 (1).png";
-import sayimg4 from "../../images/Group 14.png";
 import sayimg6 from "../../images/Group 14.png";
 import { Element } from "react-scroll";
 
@@ -42,7 +42,7 @@ const list2 = [
     id: "04",
     name: "Micah Emmanuel",
     role: "Product Designer",
-    img: sayimg4,
+    img: sayimg1,
     comment:
       "I'm currently taking a course on product design and it's been a smooth ride, the instructor is not only detailed but also very patient, it doesn't feel like we're strangers to this course. Absolutely beginner friendly and their client services is great. Would definitely recommend",
   },
@@ -50,7 +50,7 @@ const list2 = [
     id: "05",
     name: "Oparaugo Tochukwu",
     role: "Product Management",
-    img: sayimg5,
+    img: sayimg6,
     comment:
       "Started there a noob and left with a really great experience, from the tutoring to the mentoring, follow up and recommendations. Promote a community for within and helped me out of the shell. I really enjoyed my time",
   },
@@ -58,7 +58,7 @@ const list2 = [
     id: "06",
     name: "Ojerinde Adenike",
     role: "Product Designer",
-    img: sayimg6,
+    img: sayimg5,
     comment:
       "I learned a lot and networking was top-notch. We were able to meet with calm external professionals that enlightened us more about product design. It was transparent and I could say confidently that it was worth my time, resources, and emotions.I look forward to making them proud and a point of reference in the future.",
   },
@@ -70,8 +70,8 @@ const Accredit = () => {
       <Element name="accredit">
       <div className="pseccolorbg top d-flex flex-column flex-md-row align-items-center flex-column-reverse justify-content-between">
         <div className="text-white">
-          <h1>Internationally Accredited</h1>
-          <p className="pt-3">
+          <h2>Internationally Accredited</h2>
+          <p className="pt-1 pt-lg-3">
             Pluralcode Institute is formally accredited by the American Council
             of Training and Development (ACTD) after meeting its global
             standards for accreditation. We are immensely proud of this and will
