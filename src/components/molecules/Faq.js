@@ -2,13 +2,14 @@ import React from "react";
 import List from "./List";
 import State from "../atom/State";
 import "boxicons";
-// import Button from "../atom/Button";
+import { Element } from "react-scroll";
 
 const Faq = () => {
   const faq = List.map((list) => {
     return <State key={list.top} list={list} />;
   });
   return (
+    <Element name="faq">
     <div className="pad">
       <div className="text-center pt-5">
         <h2 className="pseccolor faqtitle fs-1 fw-bold py-2">
@@ -34,6 +35,7 @@ const Faq = () => {
         </div>
       </div> */}
     </div>
+    </Element>
   );
 };
 

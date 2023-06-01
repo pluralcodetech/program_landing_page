@@ -2,9 +2,11 @@ import React from "react";
 import Logo from "../atom/Logo";
 import Why from "../atom/Why";
 import pix from "../../images/image 7.png";
+import { Element } from "react-scroll";
 
 const WhySection = () => {
   return (
+    <Element name="whypl">
     <div className="pt-1 pt-lg-5  whh enbg">
       <h3 className="pseccolor text-center pad fw-semibold">WHY PLURALCODE?</h3>
       <div
@@ -51,6 +53,7 @@ const WhySection = () => {
         </div>
       </div>
     </div>
+    </Element>
   );
 };
 

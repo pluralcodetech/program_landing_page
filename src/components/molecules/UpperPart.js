@@ -27,8 +27,8 @@ const UpperPart = () => {
             </Link>
         </div>
       </div>
-      <div className="col-sm-12 col-md-12 col-lg-7 px-0 p-lg-0 overflow-hidden">
-        <Player autoplay loop src={jfile} style={{width:'90vw'}}></Player>
+      <div className="col-sm-12 col-md-12 col-lg-7 px-0 p-lg-0 overflow-hidden " >
+        <Player autoplay loop src={jfile} background="" style={{width:"",border:"none"}} className=""/>
       </div>
     </div>
   );

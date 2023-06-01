@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import Button from "./Button";
 import "boxicons";
 
-const Sidebar = () => {
+const SidebarTwo = () => {
   const [moredp, setMoredp] = useState(false);
 
   const handleDp = () => {
@@ -81,14 +81,14 @@ const Sidebar = () => {
             className="w-100 pbcolor btn button"
           />
         </Link>
-        {/* <Button
+        <Button
           children="Speak to Advisor"
           className="ptcolor px-4 btn pborder"
         />
-        <Button children="Enroll Now" className="pbcolor btn px-4 button" /> */}
+        {/* <Button children="Enroll Now" className="pbcolor btn px-4 button" /> */}
       </div>
     </div>
   );
 };
 
-export default Sidebar;
+export default SidebarTwo;

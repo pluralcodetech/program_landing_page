@@ -3,10 +3,10 @@ import { Link } from "react-scroll";
 import Button from "./Button";
 import Logo from "./Logo";
 import icon from "../../images/icon.png";
-import Sidebar from "./Sidebar";
 import "boxicons";
+import SidebarTwo from "./SidebarTwo";
 
-const Navbar = () => {
+const NavbarTwo = () => {
   const [nav, setNav] = useState(false);
   const [moredp, setMoredp] = useState(false);
 
@@ -28,28 +28,28 @@ const Navbar = () => {
           <Link
             to="cert"
             smooth={true}
-            className="text-decoration-none navtextcolor"
+            className="text-decoration-none text-white"
           >
             Certificate Courses
           </Link>
           <Link
             to="cert"
             smooth={true}
-            className="text-decoration-none navtextcolor"
+            className="text-decoration-none text-white"
           >
             Diploma Courses
           </Link>
           <Link
             to="accredit"
             smooth={true}
-            className="text-decoration-none navtextcolor"
+            className="text-decoration-none text-white"
           >
             Testimonies
           </Link>
           <Link
             to="accredit"
             smooth={true}
-            className="text-decoration-none navtextcolor"
+            className="text-decoration-none text-white"
           >
             Accreditation
           </Link>
@@ -58,11 +58,11 @@ const Navbar = () => {
             <Link
               to=""
               smooth={true}
-              className="text-decoration-none navtextcolor"
+              className="text-decoration-none text-white"
             >
               More
             </Link>
-            <box-icon name="chevron-down" color="#232323"></box-icon>
+            <box-icon name="chevron-down" color="#ffffff"></box-icon>
             {moredp && (
               <div className="position-absolute moredp bg-white d-flex flex-column gap-2 shadow-lg py-3 px-4 rounded-3">
                 <Link
@@ -98,9 +98,9 @@ const Navbar = () => {
       <div onClick={handleNav}>
         <Logo src={icon} className="d-block d-lg-none hamsize" />
       </div>
-      {nav && <Sidebar /> }
+      {nav && <SidebarTwo /> }
     </>
   );
 };
 
-export default Navbar;
+export default NavbarTwo;
