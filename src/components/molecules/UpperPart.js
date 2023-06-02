@@ -19,7 +19,7 @@ const UpperPart = () => {
           the field of tech
         </p>
         <div className="btncont">
-          <Link  to="cert" spy={true} smooth={true}>
+          <Link  to="beginen" spy={true} smooth={true}>
           <Button
             children="Begin Enrollment"
             className="btn button px-4 pbcolor bb"

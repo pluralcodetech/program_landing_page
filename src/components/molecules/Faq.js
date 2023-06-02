@@ -9,7 +9,7 @@ const Faq = () => {
     return <State key={list.top} list={list} />;
   });
   return (
-    <Element name="faq">
+    <Element name="faq" id="faq">
     <div className="pad">
       <div className="text-center pt-5">
         <h2 className="pseccolor faqtitle fs-1 fw-bold py-2">

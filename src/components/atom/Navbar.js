@@ -27,28 +27,28 @@ const Navbar = () => {
         <div className="navbtntwo szinnext d-flex gap-4 justify-content-between align-items-center">
           <Link
             to="cert"
-            smooth={true}
+            offset={-120}
             className="text-decoration-none navtextcolor"
           >
             Certificate Courses
           </Link>
           <Link
             to="cert"
-            smooth={true}
+            offset={-120}
             className="text-decoration-none navtextcolor"
           >
             Diploma Courses
           </Link>
           <Link
             to="accredit"
-            smooth={true}
+            offset={-5}
             className="text-decoration-none navtextcolor"
           >
             Testimonies
           </Link>
           <Link
             to="accredit"
-            smooth={true}
+            offset={-270}
             className="text-decoration-none navtextcolor"
           >
             Accreditation
@@ -57,7 +57,7 @@ const Navbar = () => {
           <div className="d-flex more" onMouseEnter={handleDp} onMouseLeave={handleCDp}>
             <Link
               to=""
-              smooth={true}
+  
               className="text-decoration-none navtextcolor"
             >
               More
@@ -68,14 +68,14 @@ const Navbar = () => {
                 <Link
                   to="whypl"
                   offset={-40}
-                  smooth={true}
+      
                   className="text-decoration-none navtextcolor"
                 >
                   Why Pluralcode?
                 </Link>
                 <Link
                   to="faq"
-                  smooth={true}
+      
                   offset={-30}
                   className="text-decoration-none navtextcolor"
                 >
@@ -87,7 +87,7 @@ const Navbar = () => {
         </div>
 
         <div className="navbtnone d-flex justify-content-end">
-          <Link to="cert" smooth={true}>
+          <Link to="beginen" >
             <Button
               children="Begin Enrollment"
               className="w-100 pbcolor btn button"

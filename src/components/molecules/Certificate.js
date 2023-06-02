@@ -17,7 +17,7 @@ import { Element } from "react-scroll";
 const Certificate = () => {
   return (
     <div className="pad certbg">
-      <Element name="cert">
+      <Element name="cert" id="cert">
         <ul className="nav nav-tabs mb-3 lineul" id="pills-tab" role="tablist">
           <li className="nav-item" role="presentation">
             <button

@@ -66,7 +66,7 @@ const BeginEnroll = () => {
       } else {
         errm.current.style.display = "block";
       }
-      
+      console.log(result)
     } catch (err) {
       console.log(err);
     }
@@ -78,7 +78,7 @@ const BeginEnroll = () => {
   return (
     <div className="begin-enroll text-center py-lg-5 my-lg-5 pad">
       <h1 className="pseccolor">Your Global Tech Journey Begins Right Here</h1>
-      <Element name="beginen">
+      <Element name="beginen" id="beginen">
         <p className="py-4 m-auto navtextcolor">
           Provide us your contact details below to start your enrollment
           process. Once this is done, one of our Student Advisors will reach out
@@ -179,9 +179,9 @@ const BeginEnroll = () => {
                     color="#FFFFFF"
                   ></box-icon>
                   <Link
-                    to={succ.advisor_contact_details}
+                    to={`https://wa.me/${succ.advisor_contact_details}`}
                     className="text-white text-decoration-none ps-1"
-                  ></Link>
+                  >{succ.advisor_contact_details}</Link>
                 </div>
               </button>
             </div>

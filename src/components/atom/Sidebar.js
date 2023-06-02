@@ -17,28 +17,28 @@ const Sidebar = () => {
       <div className="navbtntwo d-flex flex-column gap-3">
         <Link
           to="cert"
-          smooth={true}
+          offset={-120}
           className="text-decoration-none navtextcolor"
         >
           Certificate Courses
         </Link>
         <Link
           to="cert"
-          smooth={true}
+          offset={-120}
           className="text-decoration-none navtextcolor"
         >
           Diploma Courses
         </Link>
         <Link
           to="accredit"
-          smooth={true}
+          offset={-20}
           className="text-decoration-none navtextcolor"
         >
           Testimonies
         </Link>
         <Link
           to="accredit"
-          smooth={true}
+          offset={-520}
           className="text-decoration-none navtextcolor"
         >
           Accreditation
@@ -46,7 +46,7 @@ const Sidebar = () => {
         <div className="d-flex more" onMouseEnter={handleDp} onMouseLeave={handleCDp}>
             <Link
               to=""
-              smooth={true}
+              
               className="text-decoration-none navtextcolor"
             >
               More
@@ -57,7 +57,7 @@ const Sidebar = () => {
                 <Link
                   to="whypl"
                   offset={-40}
-                  smooth={true}
+                  
                   className="text-decoration-none navtextcolor"
                 >
                   Why Pluralcode?
@@ -65,7 +65,7 @@ const Sidebar = () => {
                 <Link
                   to="faq"
                   offset={-30}
-                  smooth={true}
+                  
                   className="text-decoration-none navtextcolor"
                 >
                   FAQ
@@ -75,7 +75,7 @@ const Sidebar = () => {
           </div>
       </div>
       <div className="navbtnone d-flex gap-4 mt-4">
-        <Link to="cert" smooth={true}>
+        <Link to="beginen" >
           <Button
             children="Begin Enrollment"
             className="w-100 pbcolor btn button"

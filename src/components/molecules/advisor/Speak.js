@@ -6,6 +6,7 @@ import PhoneInput from "react-phone-number-input";
 import Button from "../../atom/Button";
 import axios from "axios";
 import { Link } from "react-router-dom";
+import 'boxicons'
 
 const Speak = () => {
     const [succ, setSucc] = useState({
@@ -92,7 +93,7 @@ const Speak = () => {
           </div>
         </div>
         <div className="col-sm-12 col-md-12 col-lg-6 text-center">
-          <form className="begin-form w-100 py-xxl-5">
+          <form className="begin-form w-100 py-xxl-5 position-relative">
             <h2 className="pseccolor text-center">Book a Free 15 min Call</h2>
             <div className="text-start d-flex flex-column my-3">
             <label>Full Name*</label>
@@ -157,16 +158,16 @@ const Speak = () => {
               onClick={submitForm}
             />
 
+            <p ref={errm} className=" dan w-100 text-center text-danger fs-5">
+              Fields must not be empty!
+            </p>
             <div className="nb">
               Pluralcode will never sell, share or mismanage your data. We only
               request your contact to allow your advisor to reach out to you
               promptly and also share important course information.
             </div>
-            <p ref={errm} className=" dan w-100 text-center text-danger fs-5">
-              Fields must not be empty!
-            </p>
             <div className=" position-absolute modh" ref={modcloseref}>
-              <p className="modw" onClick={closeMod}>
+              <p className="modw modw2" onClick={closeMod}>
                 X
               </p>
               <div className="modchildw text-center p-4 p-lg-5 bg-white rounded-4">
@@ -186,9 +187,9 @@ const Speak = () => {
                       color="#FFFFFF"
                     ></box-icon>
                     <Link
-                      to={succ.advisor_contact_details}
+                      to={`https://wa.me/${succ.advisor_contact_details}`}
                       className="text-white text-decoration-none ps-1"
-                    ></Link>
+                    >{succ.advisor_contact_details}</Link>
                   </div>
                 </button>
               </div>

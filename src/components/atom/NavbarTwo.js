@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 import Button from "./Button";
 import Logo from "./Logo";
 import icon from "../../images/icon.png";
@@ -26,29 +26,29 @@ const NavbarTwo = () => {
       <div className="w-100 d-none redd d-lg-flex justify-content-between align-items-center">
         <div className="navbtntwo szinnext d-flex gap-4 justify-content-between align-items-center">
           <Link
-            to="cert"
-            smooth={true}
+            to="/#cert"
+            offset={-120}
             className="text-decoration-none text-white"
           >
             Certificate Courses
           </Link>
           <Link
-            to="cert"
-            smooth={true}
+            to="/#cert"
+            offset={-120}
             className="text-decoration-none text-white"
           >
             Diploma Courses
           </Link>
           <Link
-            to="accredit"
-            smooth={true}
+            to="/#accredit"
+            offset={-5}
             className="text-decoration-none text-white"
           >
             Testimonies
           </Link>
           <Link
-            to="accredit"
-            smooth={true}
+            to="/#accredit"
+            offset={-270}
             className="text-decoration-none text-white"
           >
             Accreditation
@@ -57,7 +57,6 @@ const NavbarTwo = () => {
           <div className="d-flex more" onMouseEnter={handleDp} onMouseLeave={handleCDp}>
             <Link
               to=""
-              smooth={true}
               className="text-decoration-none text-white"
             >
               More
@@ -66,16 +65,14 @@ const NavbarTwo = () => {
             {moredp && (
               <div className="position-absolute moredp bg-white d-flex flex-column gap-2 shadow-lg py-3 px-4 rounded-3">
                 <Link
-                  to="whypl"
+                  to="/#whypl"
                   offset={-40}
-                  smooth={true}
                   className="text-decoration-none navtextcolor"
                 >
                   Why Pluralcode?
                 </Link>
                 <Link
-                  to="faq"
-                  smooth={true}
+                  to="/#faq"
                   offset={-30}
                   className="text-decoration-none navtextcolor"
                 >
@@ -87,7 +84,7 @@ const NavbarTwo = () => {
         </div>
 
         <div className="navbtnone d-flex justify-content-end">
-          <Link to="cert" smooth={true}>
+          <Link to="/#beginen" >
             <Button
               children="Begin Enrollment"
               className="w-100 pbcolor btn button"

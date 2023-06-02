@@ -6,7 +6,7 @@ import { Element } from "react-scroll";
 
 const WhySection = () => {
   return (
-    <Element name="whypl">
+    <Element name="whypl" id="whypl">
     <div className="pt-1 pt-lg-5  whh enbg">
       <h3 className="pseccolor text-center pad fw-semibold">WHY PLURALCODE?</h3>
       <div

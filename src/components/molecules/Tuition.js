@@ -31,11 +31,13 @@ const Tuition = () => {
 
   return (
     <div className="pad ">
-      <Element name="tuit">
+      <Element name="tuit" id="tuit" >
         <h1 className="pseccolor text-center pb-2 pb-lg-4">Tuition Fees</h1>
         <div className="row gap-3 m-0">
           <div className="course-box col">
             <h5 className="tuitc fs-5 text-center py-1 py-lg-3">Certificate Courses</h5>
+            {loading && <p className="fs-5">Loading...</p>}
+              {err && <p className="fs-5">An error occured</p>}
             <table className="w-100">
               <thead>
                 <tr className="tuitc">
@@ -44,8 +46,7 @@ const Tuition = () => {
                   <td>Part Payment Plan</td>
                 </tr>
               </thead>
-              {loading && <p className="fs-5">Loading...</p>}
-              {err && <p className="fs-5">An error occured</p>}
+              
               <tbody>
                 <tr className="tuitcc">
                   <td>{fees?.result?.cloud[0]["name"]}</td>

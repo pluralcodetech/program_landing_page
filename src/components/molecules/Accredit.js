@@ -67,7 +67,7 @@ const list2 = [
 const Accredit = () => {
   return (
     <div className=" pseccolorbg topbody">
-      <Element name="accredit">
+      <Element name="accredit" id="accredit">
       <div className="pseccolorbg top d-flex flex-column flex-md-row align-items-center flex-column-reverse justify-content-between">
         <div className="text-white">
           <h2>Internationally Accredited</h2>

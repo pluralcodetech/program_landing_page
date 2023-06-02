@@ -574,6 +574,11 @@ tr{
   right: -60%;
   position: absolute;
 }
+.modw2{
+  
+  top:40%;
+  right: 10%;
+}
 .modchildw{
   margin-top: 50%;
 }
@@ -1002,6 +1007,10 @@ tr{
     right: -30%;
     position: absolute;
   }
+ .modw2{
+  right: 10%;
+  top:25%;
+ }
   .modchildw{
     width: 90%;
     margin: auto;
