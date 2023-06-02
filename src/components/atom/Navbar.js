@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <>
       <div className="w-100 d-none redd d-lg-flex justify-content-between align-items-center">
-        <div className="navbtntwo d-flex gap-4 justify-content-between align-items-center">
+        <div className="navbtntwo szinnext d-flex gap-4 justify-content-between align-items-center">
           <Link
             to="cert"
             smooth={true}
