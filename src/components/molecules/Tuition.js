@@ -29,6 +29,7 @@ const Tuition = () => {
 
   const numFor = Intl.NumberFormat('en-US');
 
+
   return (
     <div className="pad ">
       <Element name="tuit" id="tuit" >
@@ -51,6 +52,7 @@ const Tuition = () => {
                 <tr className="tuitcc">
                   <td>{fees?.result?.cloud[0]["name"]}</td>
                   <td>&#8358;{numFor.format(fees?.result?.cloud[0]["course_fee"])}</td>
+                  
                   <td>&#8358;{numFor.format(fees?.result?.cloud[0]["part_payment"])}</td>
                 </tr>
                 <tr className="tuitcc">

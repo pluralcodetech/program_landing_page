@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 import Button from "./Button";
 import "boxicons";
 
@@ -43,7 +43,7 @@ const SidebarTwo = () => {
         >
           Accreditation
         </Link>
-        <div className="d-flex more" onMouseEnter={handleDp} onMouseLeave={handleCDp}>
+        <div className="d-flex align-items-center more" onMouseEnter={handleDp} onMouseLeave={handleCDp}>
             <Link
               to=""
               

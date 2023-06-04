@@ -205,7 +205,7 @@
 }
 .wrapper{
   width: 100%;
-  background: url("./images/Frame\ 8.png");
+  background: url("./images/IMG_0785.jpg");
   height: 800px;
   position: relative;
   background-size: cover;
@@ -585,8 +585,15 @@ tr{
 .dan{
   display: none;
 }
-
-
+.cw{
+  width:50% ;
+}
+.smww{
+  margin-bottom: 2rem;
+}
+.flw{
+  width: 15px;
+}
 
 
 
@@ -637,12 +644,6 @@ tr{
   .upp{
     padding-top: 15%;
   }
-  .navbtnone{
-    width: 20%;
-  }
-  .navbtntwo{
-    width: 80%;
-  }
   
   .footw{
     width: 40%;
@@ -659,12 +660,30 @@ tr{
   .whyimg{
     height: 100%;
   }
+  .normal{
+    width: 100%;
+  }
   .normalad, .boldad{
     width: 100%;
   }
   .szinnext{
     font-size: 12px;
   }
+  .imgfolder{
+    width: 22% ;
+    /* height: 432px; */
+    margin: 0;
+    padding:1rem;
+    border-top-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+  }
+  .certh{
+    height: 140px;
+  }
+  .btncont{
+    width: 50%;
+  }
+
 }
 
 
@@ -913,6 +932,9 @@ tr{
   .footw{
     width: 40%;
   }
+  .foot a{
+    font-size:12px;
+  }
   .footw h5{
     font-size: 16px;
   }
@@ -980,6 +1002,10 @@ tr{
     width:100%;
     padding:1rem
   }
+  .nb{
+    padding: 1rem;
+  margin: 0.5rem 0;
+  }
   .talw{
     padding:1rem 0;
   }
@@ -1016,6 +1042,14 @@ tr{
     margin: auto;
     margin-top: 50%;
   }
+  .smww{
+    width: 45%;
+    margin-bottom: 0;
+  }
+  .cw{
+    width:100% ;
+  }
+  
   
 }
 @media (min-width:700px) and (max-width:920px) {

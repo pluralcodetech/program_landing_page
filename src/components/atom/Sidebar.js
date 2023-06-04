@@ -43,7 +43,7 @@ const Sidebar = () => {
         >
           Accreditation
         </Link>
-        <div className="d-flex more" onMouseEnter={handleDp} onMouseLeave={handleCDp}>
+        <div className="d-flex align-items-center more" onMouseEnter={handleDp} onMouseLeave={handleCDp}>
             <Link
               to=""
               

@@ -9,9 +9,11 @@ import timg8 from '../../images/palmpay (7).png';
 import timg6 from '../../images/palmpay (5).png';
 import timg7 from '../../images/palmpay (6).png';
 import timg9 from '../../images/afriglobe.png';
+import { Element } from 'react-scroll';
 
 const Talent = () => {
   return (
+    <Element name="talent" id="talent">
     <div className='talent pad'>
       <h3 className='pseccolor text-center pt-lg-5 fw-semibold'>Where Our Talents Work</h3>
       <div className='d-flex flex-wrap justify-content-center gap-4 talw' data-aos="zoom-in-up" data-aos-duration="2000">
@@ -26,6 +28,7 @@ const Talent = () => {
         <div className='talent-img'><Logo src={timg7} className="w-100"/></div>
       </div>
     </div>
+    </Element>
   )
 }
 
