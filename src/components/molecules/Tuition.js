@@ -124,7 +124,7 @@ const Tuition = () => {
           to time, if you hurry, you may qualify for one.
         </p>
         <div className="text-center py-3 py-lg-5">
-          <Link to="beginen" smooth={true}>
+          <Link to="beginen">
             <Button
               className="btn button px-5 pbcolor"
               children="Begin Enrollment"
