@@ -506,6 +506,7 @@ animation: glow 2s ease-in-out infinite alternate;
   border: 1px solid #000000;
 border-radius: 24px;
 padding: 1.5rem;
+padding-bottom: 3rem;
 }
 .tuitc{
   color: #232057;
@@ -1013,8 +1014,8 @@ tr{
     width: 120px;
     margin: 0.5rem 0;
   }
-  .tuitcc{
-    font-size: 13px;
+  .tuitcc, .tuitc{
+    font-size: 10px;
   }
   .course-box{
     border: 1px solid #000000;

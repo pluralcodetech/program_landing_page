@@ -55,7 +55,7 @@ const Footer = () => {
         <div className="p-0 col-sm-5 smww col-md-4 col-lg-3 d-flex flex-column gap-2">
           <h5 className="">Company</h5>
           <Link to="/#whypl">Why Pluralcode</Link>
-          <Link to="/advisor">Talk to Student Advisor</Link>
+          <Link to="/book-session">Talk to Student Advisor</Link>
           <Link to="https://pluralcode.academy/mentor">Become a Mentor</Link>
           <Link to="https://pluralcode.academy/services">Custom Software Development</Link>
           <Link to="https://pluralcode.academy/corporate-training">Corporate Trainings</Link>

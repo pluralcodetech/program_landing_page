@@ -11,7 +11,6 @@ import frame8 from "../../images/Frame 49 (7).png";
 import frame9 from "../../images/Frame 49 (8).png";
 import frame10 from "../../images/Frame 49 (9).png";
 import frame11 from "../../images/Frame 49 (10).png";
-// import { Link } from "react-router-dom";
 import { Element } from "react-scroll";
 
 const Certificate = () => {
@@ -269,7 +268,7 @@ const Certificate = () => {
             </section>
           </div>
           <div
-            class="tab-pane fade"
+            className="tab-pane fade"
             id="pills-profile"
             role="tabpanel"
             aria-labelledby="pills-profile-tab"

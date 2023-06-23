@@ -49,7 +49,7 @@ const Speak = () => {
     }
     try {
       const res = await fetch(
-        `https://pluralcode.academy/pluralcode_apis/api/bot_create_advisory?name=${formD.fullname}&email=${formD.email}&phone_number=${setPhone}&course_interested_in=${formD.course_of_interest}`,
+        `https://pluralcode.academy/pluralcode_apis/api/bot_create_advisory?source_type="website"&name=${formD.fullname}&email=${formD.email}&phone_number=${phone}&course_interested_in=${formD.course_of_interest}`,
         {
           method: "GET",
           headers: { "Content-Type": "applications/json" },
