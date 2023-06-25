@@ -5,9 +5,11 @@ import { Link } from "react-scroll";
 import { Element } from "react-scroll";
 
 const Tuition = () => {
-  const [loading,setLoading] =useState(true)
+  const [loading, setLoading] = useState(true);
   const [err, setErr] = useState("");
-  const [fees, setFees] = useState([]);
+  const [cert, setCert] = useState([]);
+  const [onsite, setOnsite] = useState([]);
+  const [online, setOnline] = useState([]);
 
   useEffect(() => {
     async function getApi() {
@@ -15,31 +17,33 @@ const Tuition = () => {
         const response = await axios.get(
           "https://pluralcode.academy/pluralcode_apis/api/list_courses_details"
         );
-        console.log(response.data)
-        setFees(response.data);
-        setErr(null)
+        setCert(response.data.certification);
+        setOnline(response.data.virtual_diploma);
+        setOnsite(response.data.onsite_diploma);
+        setErr(null);
       } catch (error) {
         console.log(error.message);
-        setErr(error.message)
+        setErr(error.message);
       } finally {
-        setLoading(false)
+        setLoading(false);
       }
     }
     getApi();
   }, []);
 
-  const numFor = Intl.NumberFormat('en-US');
-
+  const numFor = Intl.NumberFormat("en-US");
 
   return (
     <div className="pad ">
-      <Element name="tuit" id="tuit" >
+      <Element name="tuit" id="tuit">
         <h1 className="pseccolor text-center pb-2 pb-lg-4">Tuition Fees</h1>
         <div className="row gap-3 m-0 flex-column">
           <div className="course-box col">
-            <h5 className="tuitc fs-5 text-center py-1 py-lg-3">Certificate Courses</h5>
+            <h5 className="tuitc fs-5 text-center py-1 py-lg-3">
+              Certificate Courses
+            </h5>
             {loading && <p className="fs-5">Loading...</p>}
-              {err && <p className="fs-5">An error occured</p>}
+            {err && <p className="fs-5">An error occured</p>}
             <table className="w-100">
               <thead>
                 <tr className="tuitc">
@@ -50,62 +54,23 @@ const Tuition = () => {
                   <td>Part Payment Plan (US)</td>
                 </tr>
               </thead>
-              
-              <tbody>
-                <tr className="tuitcc">
-                  <td>{fees?.result?.cloud[0]["name"]}</td>
-                  <td>&#8358; {numFor.format(fees?.result?.cloud[0]["course_fee"])}</td>
-                  <td>&#8358; {numFor.format(fees?.result?.cloud[0]["part_payment"])}</td>
-                  <td>$ {fees?.result?.cloud[0]["usd_full_payment"]}</td>
-                  <td>$ {fees?.result?.cloud[0]["usd_part_payment"]}</td>
-                </tr>
-                <tr className="tuitcc">
-                  <td>{fees?.result?.data[0]["name"]}</td>
-                  <td>&#8358; {numFor.format(fees?.result?.data[0]["course_fee"])}</td>
-                  <td>&#8358; {numFor.format(fees?.result?.data[0]["part_payment"])}</td>
-                  <td>$ {fees?.result?.data[0]["usd_full_payment"]}</td>
-                  <td>$ {fees?.result?.data[0]["usd_part_payment"]}</td>
-                </tr>
-                <tr className="tuitcc">
-                  <td>{fees?.result?.data[1]["name"]}</td>
-                  <td>&#8358; {numFor.format(fees?.result?.data[1]["course_fee"])}</td>
-                  <td>&#8358; {numFor.format(fees?.result?.data[1]["part_payment"])}</td>
-                  <td>$ {fees?.result?.data[1]["usd_full_payment"]}</td>
-                  <td>$ {fees?.result?.data[1]["usd_part_payment"]}</td>
-                </tr>
-                <tr className="tuitcc">
-                  <td>{fees?.result?.product[0]["name"]}</td>
-                  <td>&#8358; {numFor.format(fees?.result?.product[0]["course_fee"])}</td>
-                  <td>&#8358; {numFor.format(fees?.result?.product[0]["part_payment"])}</td>
-                  <td>$ {fees?.result?.product[0]["usd_full_payment"]}</td>
-                  <td>$ {fees?.result?.product[0]["usd_part_payment"]}</td>
-                </tr>
-                <tr className="tuitcc">
-                  <td>{fees?.result?.product[1]["name"]}</td>
-                  <td>&#8358; {numFor.format(fees?.result?.product[1]["course_fee"])}</td>
-                  <td>&#8358; {numFor.format(fees?.result?.product[1]["part_payment"])}</td>
-                  <td>$ {fees?.result?.product[1]["usd_full_payment"]}</td>
-                  <td>$ {fees?.result?.product[1]["usd_part_payment"]}</td>
-                </tr>
-                <tr className="tuitcc">
-                  <td>{fees?.result?.product[2]["name"]}</td>
-                  <td>&#8358; {numFor.format(fees?.result?.product[2]["course_fee"])}</td>
-                  <td>&#8358; {numFor.format(fees?.result?.product[2]["part_payment"])}</td>
-                  <td>$ {fees?.result?.product[2]["usd_full_payment"]}</td>
-                  <td>$ {fees?.result?.product[2]["usd_part_payment"]}</td>
-                </tr>
-                <tr className="tuitcc">
-                  <td>{fees?.result?.software[0]["name"]}</td>
-                  <td>&#8358; {numFor.format(fees?.result?.software[0]["course_fee"])}</td>
-                  <td>&#8358; {numFor.format(fees?.result?.software[0]["part_payment"])}</td>
-                  <td>$ {fees?.result?.software[0]["usd_full_payment"]}</td>
-                  <td>$ {fees?.result?.software[0]["usd_part_payment"]}</td>
-                </tr>
-              </tbody>
+              {cert.map((cert) => (
+                <tbody key={cert.id}>
+                  <tr className="tuitcc">
+                    <td>{cert["name"]}</td>
+                    <td>&#8358; {numFor.format(cert["course_fee"])}</td>
+                    <td>&#8358; {numFor.format(cert["part_payment"])}</td>
+                    <td>$ {cert["usd_full_payment"]}</td>
+                    <td>$ {cert["usd_part_payment"]}</td>
+                  </tr>
+                </tbody>
+              ))}
             </table>
           </div>
           <div className="course-box col">
-            <h5 className="tuitc fs-5 text-center py-1 py-lg-3">Diploma Courses</h5>
+            <h5 className="tuitc fs-5 text-center py-1 py-lg-3">
+              Onsite Diploma Courses
+            </h5>
             <table className="w-100">
               <thead>
                 <tr className="tuitc">
@@ -116,37 +81,48 @@ const Tuition = () => {
                   <td>Part Payment Plan (US)</td>
                 </tr>
               </thead>
-              <tbody>
-                 
-            <tr className="tuitcc">
-            <td>{fees?.diploma?.diploma_software[0]["name"]}</td>
-            <td>&#8358; {numFor.format(fees?.diploma?.diploma_software[0]["course_fee"])}</td>
-            <td>&#8358; {numFor.format(fees?.diploma?.diploma_software[0]["part_payment"])}</td>
-            <td>$ {fees?.diploma?.diploma_software[0]["usd_full_payment"]}</td>
-            <td>$ {fees?.diploma?.diploma_software[0]["usd_part_payment"]}</td>
-            </tr>
-            <tr className="tuitcc">
-            <td>{fees?.diploma?.diploma_cloud[0]["name"]}</td>
-            <td>&#8358; {numFor.format(fees?.diploma?.diploma_cloud[0]["course_fee"])}</td>
-            <td>&#8358; {numFor.format(fees?.diploma?.diploma_cloud[0]["part_payment"])}</td>
-            <td>$ {fees?.diploma?.diploma_cloud[0]["usd_full_payment"]}</td>
-            <td>$ {fees?.diploma?.diploma_cloud[0]["usd_part_payment"]}</td>
-            </tr>
-            <tr className="tuitcc">
-            <td>{fees?.diploma?.diploma_data[0]["name"]}</td>
-            <td>&#8358; {numFor.format(fees?.diploma?.diploma_data[0]["course_fee"])}</td>
-            <td>&#8358; {numFor.format(fees?.diploma?.diploma_data[0]["part_payment"])}</td>
-            <td>$ {fees?.diploma?.diploma_data[0]["usd_full_payment"]}</td>
-            <td>$ {fees?.diploma?.diploma_data[0]["usd_part_payment"]}</td>
-            </tr>
-            <tr className="tuitcc">
-            <td>{fees?.diploma?.diploma_product[0]["name"]}</td>
-            <td>&#8358; {numFor.format(fees?.diploma?.diploma_product[0]["course_fee"])}</td>
-            <td>&#8358; {numFor.format(fees?.diploma?.diploma_product[0]["part_payment"])}</td>
-            <td>$ {fees?.diploma?.diploma_product[0]["usd_full_payment"]}</td>
-            <td>$ {fees?.diploma?.diploma_product[0]["usd_part_payment"]}</td>
-            </tr>
-            </tbody>
+              {onsite.map((onsiteCourse) => (
+                <tbody>
+                  <tr className="tuitcc">
+                    <td>{onsiteCourse["name"]}</td>
+                    <td>&#8358; {numFor.format(onsiteCourse["course_fee"])}</td>
+                    <td>
+                      &#8358; {numFor.format(onsiteCourse["part_payment"])}
+                    </td>
+                    <td>$ {onsiteCourse["usd_full_payment"]}</td>
+                    <td>$ {onsiteCourse["usd_part_payment"]}</td>
+                  </tr>
+                </tbody>
+              ))}
+            </table>
+          </div>
+          <div className="course-box col">
+            <h5 className="tuitc fs-5 text-center py-1 py-lg-3">
+              Virtual (Online) Diploma Courses
+            </h5>
+            <table className="w-100">
+              <thead>
+                <tr className="tuitc">
+                  <td>Course</td>
+                  <td>Full Payment Plan (NG)</td>
+                  <td>Part Payment Plan (NG)</td>
+                  <td>Full Payment Plan (US)</td>
+                  <td>Part Payment Plan (US)</td>
+                </tr>
+              </thead>
+              {online.map((onlineCourse) => (
+                <tbody>
+                  <tr className="tuitcc">
+                    <td>{onlineCourse["name"]}</td>
+                    <td>&#8358; {numFor.format(onlineCourse["course_fee"])}</td>
+                    <td>
+                      &#8358; {numFor.format(onlineCourse["part_payment"])}
+                    </td>
+                    <td>$ {onlineCourse["usd_full_payment"]}</td>
+                    <td>$ {onlineCourse["usd_part_payment"]}</td>
+                  </tr>
+                </tbody>
+              ))}
             </table>
           </div>
         </div>
