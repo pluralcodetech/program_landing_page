@@ -34,8 +34,8 @@ const Tuition = () => {
   const numFor = Intl.NumberFormat("en-US");
 
   return (
-    <div className="pad ">
       <Element name="tuit" id="tuit">
+    <div className="pad ">
         <h1 className="pseccolor text-center pb-2 pb-lg-4">Tuition Fees</h1>
         <div className="row gap-3 m-0 flex-column">
           <div className="course-box col">
@@ -82,7 +82,7 @@ const Tuition = () => {
                 </tr>
               </thead>
               {onsite.map((onsiteCourse) => (
-                <tbody>
+                <tbody key={onsiteCourse.id}>
                   <tr className="tuitcc">
                     <td>{onsiteCourse["name"]}</td>
                     <td>&#8358; {numFor.format(onsiteCourse["course_fee"])}</td>
@@ -111,7 +111,7 @@ const Tuition = () => {
                 </tr>
               </thead>
               {online.map((onlineCourse) => (
-                <tbody>
+                <tbody key={onlineCourse.id}>
                   <tr className="tuitcc">
                     <td>{onlineCourse["name"]}</td>
                     <td>&#8358; {numFor.format(onlineCourse["course_fee"])}</td>
@@ -138,8 +138,8 @@ const Tuition = () => {
             />
           </Link>
         </div>
-      </Element>
     </div>
+      </Element>
   );
 };
 

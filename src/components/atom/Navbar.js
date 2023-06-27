@@ -47,6 +47,13 @@ const Navbar = () => {
             Testimonies
           </Link>
           <Link
+            to="tuit"
+            offset={-120}
+            className="text-decoration-none navtextcolor"
+          >
+            Fees
+          </Link>
+          <Link
             to="accredit"
             offset={-270}
             className="text-decoration-none navtextcolor"

@@ -11,6 +11,11 @@ import frame8 from "../../images/Frame 49 (7).png";
 import frame9 from "../../images/Frame 49 (8).png";
 import frame10 from "../../images/Frame 49 (9).png";
 import frame11 from "../../images/Frame 49 (10).png";
+import scrum from "../../images/scrum.png";
+import dip from "../../images/dip.png";
+import dip1 from "../../images/dip1.png";
+import dip2 from "../../images/dip2.png";
+import dip3 from "../../images/dip3.png";
 import { Element } from "react-scroll";
 
 const Certificate = () => {
@@ -55,9 +60,7 @@ const Certificate = () => {
             aria-labelledby="pills-home-tab"
           >
             <section className="text-center py-4">
-              <h2 className="pseccolor fs-1">
-                Certificate Programs
-              </h2>
+              <h2 className="pseccolor fs-1">Certificate Programs</h2>
               <p className="cert pt-md-3 pb-4 m-auto navtextcolor">
                 Choose the <span className="ptcolor">12-Weekends</span>{" "}
                 Certificate Course you would like to learn and click the link
@@ -66,7 +69,11 @@ const Certificate = () => {
               </p>
             </section>
             <section className="row gap-4 seccert  justify-content-between">
-              <div className="col-sm-12 col-md-12 col-lg-3 imgfolder shadow-lg" data-aos="zoom-in-up" data-aos-duration="2000">
+              <div
+                className="col-sm-12 col-md-12 col-lg-3 imgfolder shadow-lg"
+                data-aos="zoom-in-up"
+                data-aos-duration="2000"
+              >
                 <a href="https://wa.me/2347083153185?text=I'm%20interested%20in%20your%20Product%20Design%20Course">
                   <Logo src={frame1} className="w-100" />
                 </a>
@@ -94,7 +101,11 @@ const Certificate = () => {
                 </div>
               </div>
 
-              <div className="col-sm-12 col-md-12 col-lg-3 imgfolder shadow-lg" data-aos="zoom-in-up" data-aos-duration="2000">
+              <div
+                className="col-sm-12 col-md-12 col-lg-3 imgfolder shadow-lg"
+                data-aos="zoom-in-up"
+                data-aos-duration="2000"
+              >
                 <a
                   href="https://wa.me/2349169190508?text=I'm%20interested%20in%20your%20Product%20Management%20Course
 "
@@ -124,13 +135,17 @@ const Certificate = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-sm-12 col-md-12 col-lg-3 imgfolder shadow-lg" data-aos="zoom-in-up" data-aos-duration="2000">
+              <div
+                className="col-sm-12 col-md-12 col-lg-3 imgfolder shadow-lg"
+                data-aos="zoom-in-up"
+                data-aos-duration="2000"
+              >
                 <a href="https://wa.me/2349134244201?text=I'm%20interested%20in%20your%20Product%20Business%20Analytics">
                   <Logo src={frame3} className="w-100" />
                 </a>
                 <div className="pt-3 d-flex flex-column">
                   <div className="certh ">
-                    <h5 className="">Business Analysis</h5>
+                    <h5 className="">Business Analytics</h5>
                     <p className="text">
                       Learn the tools and skills for Business Intelligence and
                       Analytics.
@@ -152,7 +167,11 @@ const Certificate = () => {
                 </div>
               </div>
 
-              <div className="col-sm-12 col-md-12 col-lg-3 imgfolder shadow-lg" data-aos="zoom-in-up" data-aos-duration="2000">
+              <div
+                className="col-sm-12 col-md-12 col-lg-3 imgfolder shadow-lg"
+                data-aos="zoom-in-up"
+                data-aos-duration="2000"
+              >
                 <a href="https://wa.me/2349169190508?text=I'm%20interested%20in%20your%20Project%20Management%20Course">
                   <Logo src={frame4} className="w-100" />
                 </a>
@@ -160,8 +179,8 @@ const Certificate = () => {
                   <div className="certh">
                     <h5 className="">Agile Project Management</h5>
                     <p className="text">
-                      Master Agile in Product Management in just 8-week then
-                      become a Pro.
+                      Master Agile in Product Management in just 12 weeks of
+                      practical learning.
                     </p>
                   </div>
                   <div className="d-flex align-items-center">
@@ -181,8 +200,12 @@ const Certificate = () => {
               </div>
             </section>
 
-            <section className="row gap-4 seccert pb-5 mb-5 justify-content-center align-items-center">
-              <div className="col-sm-12 col-md-12 col-lg-4 imgfolder shadow-lg" data-aos="zoom-in-up" data-aos-duration="2000">
+            <section className="row gap-4 seccert pb-5 mb-5 justify-content-between align-items-center">
+              <div
+                className="col-sm-12 col-md-12 col-lg-4 imgfolder shadow-lg"
+                data-aos="zoom-in-up"
+                data-aos-duration="2000"
+              >
                 <a href="https://wa.me/2349120733972?text=I%27m%20interested%20in%20your%20Data%20Analytics%20Diploma">
                   <Logo src={frame5} className="w-100" />
                 </a>
@@ -210,7 +233,11 @@ const Certificate = () => {
                 </div>
               </div>
 
-              <div className="col-sm-12 col-md-12 col-lg-4 imgfolder shadow-lg" data-aos="zoom-in-up" data-aos-duration="2000">
+              <div
+                className="col-sm-12 col-md-12 col-lg-4 imgfolder shadow-lg"
+                data-aos="zoom-in-up"
+                data-aos-duration="2000"
+              >
                 <a href="https://wa.me/2347040910513?text=I'm%20interested%20in%20your%20Software%20Development%20Course">
                   <Logo src={frame6} className="w-100" />
                 </a>
@@ -238,7 +265,11 @@ const Certificate = () => {
                 </div>
               </div>
 
-              <div className="col-sm-12 col-md-12 col-lg-4 imgfolder shadow-lg" data-aos="zoom-in-up" data-aos-duration="2000">
+              <div
+                className="col-sm-12 col-md-12 col-lg-4 imgfolder shadow-lg"
+                data-aos="zoom-in-up"
+                data-aos-duration="2000"
+              >
                 <a href="https://wa.me/2347083153185?text=I'm%20interested%20in%20your%20Product%20Cloud%20Computing">
                   <Logo src={frame7} className="w-100" />
                 </a>
@@ -246,7 +277,7 @@ const Certificate = () => {
                   <div className="certh">
                     <h5 className="">Cloud Computing</h5>
                     <p className="text">
-                      Become a Cloud Computing Expert through our 16-20 weeks
+                      Become a Cloud Computing Expert through our 12 weeks
                       program.
                     </p>
                   </div>
@@ -258,6 +289,37 @@ const Certificate = () => {
                     ></box-icon>
                     <a
                       href="https://wa.me/2347083153185?text=I'm%20interested%20in%20your%20Product%20Cloud%20Computing"
+                      className="ptcolor text-decoration-none ps-1"
+                    >
+                      Speak to Advisor
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-sm-12 col-md-12 col-lg-4 imgfolder shadow-lg"
+                data-aos="zoom-in-up"
+                data-aos-duration="2000"
+              >
+                <a href="https://wa.me/2349169190508?text=I'm%20interested%20in%20your%20SCRUM%20Project%20Management%20Course">
+                  <Logo src={scrum} className="w-100" />
+                </a>
+                <div className="pt-3 d-flex flex-column">
+                  <div className="certh">
+                    <h5 className="">Scrum Project Management</h5>
+                    <p className="text">
+                      Learn the SCRUM principle of project management in our 12
+                      weeks program.
+                    </p>
+                  </div>
+                  <div className="d-flex align-items-center">
+                    <box-icon
+                      type="logo"
+                      name="whatsapp"
+                      color="#F8991D"
+                    ></box-icon>
+                    <a
+                      href="https://wa.me/2349169190508?text=I'm%20interested%20in%20your%20SCRUM%20Project%20Management%20Course"
                       className="ptcolor text-decoration-none ps-1"
                     >
                       Speak to Advisor
@@ -282,7 +344,11 @@ const Certificate = () => {
               </p>
             </section>
             <section className="row gap-4 seccert pt-3 pb-5 mb-5 justify-content-between">
-              <div className="col-sm-12 col-md-12 col-lg-3 imgfolder shadow-lg" data-aos="zoom-in-up" data-aos-duration="2000">
+              <div
+                className="col-sm-12 col-md-12 col-lg-3 imgfolder shadow-lg"
+                data-aos="zoom-in-up"
+                data-aos-duration="2000"
+              >
                 <a href="https://wa.me/2349169190508?text=I%27m%20interested%20in%20your%20Product%20Management%20Diploma">
                   <Logo src={frame8} className="w-100" />
                 </a>
@@ -310,7 +376,11 @@ const Certificate = () => {
                 </div>
               </div>
 
-              <div className="col-sm-12 col-md-12 col-lg-3 imgfolder shadow-lg" data-aos="zoom-in-up" data-aos-duration="2000">
+              <div
+                className="col-sm-12 col-md-12 col-lg-3 imgfolder shadow-lg"
+                data-aos="zoom-in-up"
+                data-aos-duration="2000"
+              >
                 <a href="https://wa.me/2349120733972?text=I%27m%20interested%20in%20your%20Data%20Analytics%20Diploma">
                   <Logo src={frame9} className="w-100" />
                 </a>
@@ -337,7 +407,11 @@ const Certificate = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-sm-12 col-md-12 col-lg-3 imgfolder shadow-lg" data-aos="zoom-in-up" data-aos-duration="2000">
+              <div
+                className="col-sm-12 col-md-12 col-lg-3 imgfolder shadow-lg"
+                data-aos="zoom-in-up"
+                data-aos-duration="2000"
+              >
                 <a href="https://wa.me/2347083153185?text=I'm%20interested%20in%20your%20Product%20Cloud%20Computing">
                   <Logo src={frame10} className="w-100" />
                 </a>
@@ -365,7 +439,11 @@ const Certificate = () => {
                 </div>
               </div>
 
-              <div className="col-sm-12 col-md-12 col-lg-3 imgfolder shadow-lg" data-aos="zoom-in-up" data-aos-duration="2000">
+              <div
+                className="col-sm-12 col-md-12 col-lg-3 imgfolder shadow-lg"
+                data-aos="zoom-in-up"
+                data-aos-duration="2000"
+              >
                 <a href="https://wa.me/2347040910513?text=I'm%20interested%20in%20your%20Full%20Stack%20Course">
                   <Logo src={frame11} className="w-100" />
                 </a>
@@ -385,6 +463,134 @@ const Certificate = () => {
                     ></box-icon>
                     <a
                       href="https://wa.me/2347040910513?text=I'm%20interested%20in%20your%20Full%20Stack%20Course"
+                      className="ptcolor text-decoration-none ps-1"
+                    >
+                      Speak to Advisor
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section className="row gap-4 seccert pt-3 pb-5 mb-5 justify-content-between">
+              <div
+                className="col-sm-12 col-md-12 col-lg-3 imgfolder shadow-lg"
+                data-aos="zoom-in-up"
+                data-aos-duration="2000"
+              >
+                <a href="https://wa.me/2347083153185?text=I'm%20interested%20in%20your%20Product%20Design%20Course">
+                  <Logo src={dip} className="w-100" />
+                </a>
+                <div className="pt-3 d-flex flex-column">
+                  <div className="certh">
+                    <h5 className="">Diploma in Product Design</h5>
+                    <p className="text">
+                      Learn advanced UI design, User Experience and Interaction
+                      Design.
+                    </p>
+                  </div>
+                  <div className="d-flex align-items-center">
+                    <box-icon
+                      type="logo"
+                      name="whatsapp"
+                      color="#F8991D"
+                    ></box-icon>
+                    <a
+                      href="https://wa.me/2347083153185?text=I'm%20interested%20in%20your%20Product%20Design%20Course"
+                      className="ptcolor text-decoration-none ps-1"
+                    >
+                      Speak to Advisor
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                className="col-sm-12 col-md-12 col-lg-3 imgfolder shadow-lg"
+                data-aos="zoom-in-up"
+                data-aos-duration="2000"
+              >
+                <a href="https://wa.me/2349120733972?text=I%27m%20interested%20in%20your%20Data%20Analytics%20Diploma">
+                  <Logo src={dip1} className="w-100" />
+                </a>
+                <div className="pt-3 d-flex flex-column">
+                  <div className="certh">
+                    <h5 className="">Diploma in Agile Proj. MGT.</h5>
+                    <p className="text">
+                      Agile Project Management & SCRUM from beginner to advanced
+                      levels
+                    </p>
+                  </div>
+                  <div className="d-flex align-items-center">
+                    <box-icon
+                      type="logo"
+                      name="whatsapp"
+                      color="#F8991D"
+                    ></box-icon>
+                    <a
+                      href="https://wa.me/2349169190508?text=I'm%20interested%20in%20your%20Project%20Management%20Course"
+                      className="ptcolor text-decoration-none ps-1"
+                    >
+                      Speak to Advisor
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-sm-12 col-md-12 col-lg-3 imgfolder shadow-lg"
+                data-aos="zoom-in-up"
+                data-aos-duration="2000"
+              >
+                <a href="https://wa.me/2349134244201?text=I'm%20interested%20in%20your%20Product%20Business%20Analytics">
+                  <Logo src={dip2} className="w-100" />
+                </a>
+                <div className="pt-3 d-flex flex-column">
+                  <div className="certh ">
+                    <h5 className="">Diploma in Bus. Analytics.</h5>
+                    <p className="text">
+                      Learn Business Analysis from beginner to advanced levels
+                      in 20 weeks.
+                    </p>
+                  </div>
+                  <div className="d-flex align-items-center">
+                    <box-icon
+                      type="logo"
+                      name="whatsapp"
+                      color="#F8991D"
+                    ></box-icon>
+                    <a
+                      href="https://wa.me/2349134244201?text=I'm%20interested%20in%20your%20Product%20Business%20Analytics"
+                      className="ptcolor text-decoration-none ps-1"
+                    >
+                      Speak to Advisor
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                className="col-sm-12 col-md-12 col-lg-3 imgfolder shadow-lg"
+                data-aos="zoom-in-up"
+                data-aos-duration="2000"
+              >
+                <a href="https://wa.me/2347040910513?text=I'm%20interested%20in%20your%20Cyber%20Security%20Course">
+                  <Logo src={dip3} className="w-100" />
+                </a>
+                <div className="pt-3 d-flex flex-column">
+                  <div className="certh">
+                    <h5 className="fw-semibold">Diploma in Cyber Security</h5>
+                    <p className="text">
+                      Master Cyber Security and Penetration Testing through this
+                      Diploma program.
+                    </p>
+                  </div>
+                  <div className="d-flex align-items-center">
+                    <box-icon
+                      type="logo"
+                      name="whatsapp"
+                      color="#F8991D"
+                    ></box-icon>
+                    <a
+                      href="https://wa.me/2347040910513?text=I'm%20interested%20in%20your%20Cyber%20Security%20Course"
                       className="ptcolor text-decoration-none ps-1"
                     >
                       Speak to Advisor
