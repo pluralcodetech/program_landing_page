@@ -18,11 +18,11 @@ const State = ({list}) => {
           className="w-100 py-3 px-lg-4 d-flex align-items-center justify-content-between border-bottom rounded-4"
           onClick={handleState}
         >
-          <h5 className="d-flex align-items-center faqh5">
+          <h5 className="w-100 d-flex align-items-center faqh5">
             <Logo src={elipse} className="elip" />
             {top}
           </h5>
-          <box-icon name="chevron-right" id="right"></box-icon>
+          <box-icon name="chevron-right" className="w-100" id="right"></box-icon>
         </div>
       )}
       {title && (
@@ -30,11 +30,11 @@ const State = ({list}) => {
           className="w-100 faq py-3 px-lg-4 d-flex align-items-center justify-content-between border-bottom rounded-4"
           onClick={handleState}
         >
-          <h5 className="d-flex align-items-center faqh5 fw-semibold">
+          <h5 className="w-100 d-flex align-items-center faqh5 fw-semibold">
             <Logo src={elipse} className="elip" />
             {top}
           </h5>
-          <box-icon name="chevron-up" id="right"></box-icon>
+          <box-icon name="chevron-up" className="w-100" id="right"></box-icon>
         </div>
       )}
       {title && (

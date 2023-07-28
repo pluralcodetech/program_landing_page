@@ -1,26 +1,26 @@
-import React, {useState} from "react";
+import React from "react";
 import { Link } from "react-scroll";
 import Button from "./Button";
 import "boxicons";
 
 const Sidebar = () => {
-  const [moredp, setMoredp] = useState(false);
+  // const [sd, setSd] = useState(false);
 
-  const handleDp = () => {
-    return setMoredp(!moredp);
-  };
-  const handleCDp = () => {
-    return setMoredp(!moredp);
-  };
+  // const handleDp = () => {
+  //   return setSd(!sd);
+  // };
+  // const handleCDp = () => {
+  //   return setMoredp(!moredp);
+  // };
   return (
     <div className="w-100  ab d-block d-lg-none ">
-      <div className="navbtntwo d-flex flex-column gap-3">
+      <div className="navbtntwo d-flex flex-column gap-3" >
         <Link
           to="cert"
           offset={-120}
           className="text-decoration-none navtextcolor"
         >
-          Certificate Courses
+          Entry-Level Courses
         </Link>
         <Link
           to="cert"
@@ -28,6 +28,13 @@ const Sidebar = () => {
           className="text-decoration-none navtextcolor"
         >
           Diploma Courses
+        </Link>
+        <Link
+          to="tuit"
+          offset={-520}
+          className="text-decoration-none navtextcolor"
+        >
+          Tuition Fees
         </Link>
         <Link
           to="accredit"
@@ -43,7 +50,8 @@ const Sidebar = () => {
         >
           Accreditation
         </Link>
-        <div className="d-flex align-items-center more" onMouseEnter={handleDp} onMouseLeave={handleCDp}>
+        
+        {/* <div className="d-flex align-items-center more" onMouseEnter={handleDp} onMouseLeave={handleCDp}>
             <Link
               to=""
               
@@ -72,7 +80,7 @@ const Sidebar = () => {
                 </Link>
               </div>
             )}
-          </div>
+          </div> */}
       </div>
       <div className="navbtnone d-flex gap-4 mt-4">
         <Link to="beginen" >

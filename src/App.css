@@ -82,6 +82,9 @@
 .bg::placeholder{
   color: #939393;
 }
+.upperw{
+  width: 50%;
+}
 .bold{
   /* width: 550px; */
   font-size: 54px;
@@ -99,7 +102,7 @@
 .normal{
   width: 400px;
   padding-top: 0.7rem;
-  font-family: Gilroy-medium;
+  /* font-family: Gilroy-medium; */
 }
 .normalad{
   width:550px;
@@ -111,7 +114,7 @@
 }
 
 .navbtnone{
-  width: 200px;
+  width: 230px;
 }
 .navbtntwo{
   justify-content: space-between;
@@ -119,7 +122,6 @@
   cursor: pointer;
 }
 .navbtntwo a{
-
   font-family: Gilroy-medium;
 }
 .moredp{
@@ -154,7 +156,6 @@
 }
 .nav-item{
   background-color:#F5F6FA;
-
 }
 
 .lineul{
@@ -167,17 +168,20 @@
   height: 100px;
 }
 .certh h5{
-  font-size: 18px;
+  font-size: 17px;
 }
 .seccert{
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 .btncont{
-  width: 40%;
+  width: 100%;
   font-weight: 500;
-  padding-top: 1.5rem;
-  padding-bottom: 7rem;
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  border-radius: 16px;
+background: fff;
+box-shadow: 0px 1.773936152458191px 2.6609041690826416px -1.773936152458191px rgba(16, 24, 40, 0.10), 0px -1px 8px -1.3304520845413208px rgba(16, 24, 40, 0.10);
 }
 .imgfolder{
   width: 23%;
@@ -294,6 +298,9 @@ animation: glow 2s ease-in-out infinite alternate;
   position: relative;
 }
 
+.upIm{
+  width: 75%;
+ }
 
 .top{
   width: 90%;
@@ -376,28 +383,41 @@ animation: glow 2s ease-in-out infinite alternate;
 }
 
 .press{
-  width: 60%;
+  width: 850px;
+  font-size: 17px;
   font-family: Gilroy-regular;
 }
 .press-box{
-  /* width: 32%; */
+  width: 29%;
   background: #FFFFFF;
   box-shadow: 0px -7.42184px 16.7347px -1.85539px rgba(16, 24, 40, 0.05), 0px 2.96863px 67.7755px -2.22647px rgba(16, 24, 40, 0.05);
   border-radius: 32px 0;
 }
 .ph{
   height: 100px;
+  width: 100%;
+
 }
+
 .foot{
   background-color: #F6F6F8;
 }
 .upbg{
   background-color: #FFFDFA;
 }
-.vh{
-  height: 90vh;
+.upperbg{
+  background: linear-gradient(rgb(248, 153, 29, 0.1),rgb(248, 153, 29,0.1)), url("./images/Group\ 20696.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
-
+.lowerbg{
+  background: linear-gradient(rgb(255, 253, 250, 0.1),rgb(255, 253, 250, 0.1)), url("./images/Group\ 20696.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  
+}
 .certbg{
   background: linear-gradient(347.7deg, rgba(237, 237, 241, 0.42) 4.38%, rgba(255, 255, 255, 0) 69.1%)
 }
@@ -444,11 +464,12 @@ animation: glow 2s ease-in-out infinite alternate;
   color:#F8991D;
   border: 1px solid #F8991D;
 }
+
 .talent{
   background: rgba(35, 32, 87, 0.02);
 }
 .talw{
-  padding: 3rem 0;
+  padding: 0 0 4rem 0;
 }
 .talent-img{
   width: 200px;
@@ -515,6 +536,9 @@ padding-bottom: 3rem;
 .tuitcc{
   color: #0D0032;
   font-family: Gilroy-medium;
+}
+.tuitfee{
+  font-family: Gilroy-bold;
 }
 td{
 
@@ -595,14 +619,38 @@ tr{
 .flw{
   width: 15px;
 }
-
+pre{
+  font-family: Gilroy-medium;
+  white-space: pre-line;
+}
+.dipEnt{
+  font-family: Gilroy-bold;
+  font-size: 32px;
+}
+select {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0.5em 2em 0.5em 0.5em;
+  border: 1px solid #eee;
+  font: inherit;
+  line-height: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  background-repeat: no-repeat;
+  background-image: url(./images/ang.png);
+  background-position: right 60px top 1em, right 10px top 1em;
+  background-size:25px 25px 25px 25px;
+}
 
 
 
 
 @media (min-width:1500px) {
   .bold{
-    font-size: 64px;
+    font-size: 70px;
+    padding-bottom: 0.5rem;
     font-weight: 700;
     line-height: 4.5rem;
     font-family: Gilroy-bold;
@@ -617,7 +665,7 @@ tr{
   .normal{
     width: 600px;
     padding-top: 0.7rem;
-    font-size: 22px;
+    font-size: 24px;
   }
   .normalad{
     width: 700px;
@@ -694,8 +742,9 @@ tr{
     border: none;
     background-color: green;
   } */
-  .vh{
-    height: 100%;
+  
+  .upperw{
+    width: 100%;
   }
     .pad{
       padding: 2rem 1.2rem;
@@ -775,6 +824,7 @@ tr{
       gap: 20px;
       padding-bottom: 1rem;
     }
+    
     .cert{
       width: 100%;
     }
@@ -879,6 +929,7 @@ tr{
       justify-content: center;
     }
     .press{
+      font-size: 16px;
       width: 90%;
     }
    .accp{
@@ -1050,6 +1101,19 @@ tr{
   .cw{
     width:100% ;
   }
+ .press-box{
+  width: 100%;
+ }
+ .upIm{
+  width: 100%;
+ }
+ .dipEnt{
+  font-size: 20px;
+ }
+ .btncont{
+  width: 75%;
+ }
+ 
   
   
 }
@@ -1060,6 +1124,17 @@ tr{
   .top{
     top:-18%;
   }
+  .bold{
+    width: 50%;
+    margin: auto;
+  }
+  .normal{
+    width: 55%;
+    margin: auto;
+  }
+  select{
+    background-position: right 200px top 1em, right 10px top 1em;
+    }
 }
 @media (max-width:500px) {
   .lineul{

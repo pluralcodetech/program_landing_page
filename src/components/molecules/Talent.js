@@ -15,7 +15,7 @@ const Talent = () => {
   return (
     <Element name="talent" id="talent">
     <div className='talent pad'>
-      <h3 className='pseccolor text-center pt-lg-5 fw-semibold'>Where Our Talents Work</h3>
+      <h4 className='pseccolor text-center pt-lg-5 mt-lg-4 fw-semibold'>Where Our Talents Work</h4>
       <div className='d-flex flex-wrap justify-content-center gap-4 talw' data-aos="zoom-in-up" data-aos-duration="2000">
         <div className='talent-img'><Logo src={timg1} className="w-100"/></div>
         <div className='talent-img'><Logo src={timg2} className="w-100"/></div>

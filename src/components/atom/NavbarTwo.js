@@ -53,6 +53,13 @@ const NavbarTwo = () => {
           >
             Accreditation
           </Link>
+          <Link
+            to="tuit"
+            offset={-120}
+            className="text-decoration-none text-white"
+          >
+            Fees
+          </Link>
 
           <div className="d-flex align-items-center more" onMouseEnter={handleDp} onMouseLeave={handleCDp}>
             <Link

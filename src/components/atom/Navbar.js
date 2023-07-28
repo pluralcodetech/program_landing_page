@@ -8,18 +8,18 @@ import "boxicons";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-  const [moredp, setMoredp] = useState(false);
+  // const [moredp, setMoredp] = useState(false);
 
   const handleNav = () => {
     return setNav(!nav);
   };
   
-  const handleDp = () => {
-    return setMoredp(!moredp);
-  };
-  const handleCDp = () => {
-    return setMoredp(!moredp);
-  };
+  // const handleDp = () => {
+  //   return setMoredp(!moredp);
+  // };
+  // const handleCDp = () => {
+  //   return setMoredp(!moredp);
+  // };
   
   return (
     <>
@@ -30,7 +30,7 @@ const Navbar = () => {
             offset={-120}
             className="text-decoration-none navtextcolor"
           >
-            Certificate Courses
+            Entry-Level Courses
           </Link>
           <Link
             to="cert"
@@ -40,19 +40,20 @@ const Navbar = () => {
             Diploma Courses
           </Link>
           <Link
+            to="tuit"
+            offset={-120}
+            className="text-decoration-none navtextcolor"
+          >
+            Tuition Fees
+          </Link>
+          <Link
             to="accredit"
             offset={-5}
             className="text-decoration-none navtextcolor"
           >
             Testimonies
           </Link>
-          <Link
-            to="tuit"
-            offset={-120}
-            className="text-decoration-none navtextcolor"
-          >
-            Fees
-          </Link>
+          
           <Link
             to="accredit"
             offset={-270}
@@ -61,10 +62,9 @@ const Navbar = () => {
             Accreditation
           </Link>
 
-          <div className="d-flex align-items-center more" onMouseEnter={handleDp} onMouseLeave={handleCDp}>
+          {/* <div className="d-flex align-items-center more" onMouseEnter={handleDp} onMouseLeave={handleCDp}>
             <Link
               to=""
-  
               className="text-decoration-none navtextcolor"
             >
               More
@@ -90,11 +90,11 @@ const Navbar = () => {
                 </Link>
               </div>
             )}
-          </div>
+          </div> */}
         </div>
 
         <div className="navbtnone d-flex justify-content-end">
-          <Link to="beginen" >
+          <Link to="beginen" className="w-100" >
             <Button
               children="Begin Enrollment"
               className="w-100 pbcolor btn button"

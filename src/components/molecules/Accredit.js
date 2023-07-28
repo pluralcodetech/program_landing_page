@@ -78,7 +78,7 @@ const Accredit = () => {
             continue to build the largest school of tech in Africa.
           </p>
         </div>
-        <div className="log">
+        <div className="log pt-2 pt-lg-0">
           <Logo src={acc} className="ac" />
         </div>
       </div>

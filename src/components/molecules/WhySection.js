@@ -17,10 +17,10 @@ const WhySection = () => {
         <div className="w-100">
           <Why
             h2="
-          Flexible Learning
+            360° Learning
           "
             p="
-          Students can opt-in for our Onsite classes, virtual classes as well as Exclusive, One-on-One Mentorship. At Pluralcode we understand that you often have work, school and other pursuits to deal with and so we have structured program options to adapt to your specific needs and schedule. Contact any of our student advisors to find out how this works and how you can take advantage of it to up-skill for your ‘borderless career’ while you work or school."
+            The most immersive learning experience out there, period! You can attend weekly live trainings led by industry experts in onsite or virtual classrooms, get access to Pluralcode’s learning portal with several hours of material to watch at your pace, join engaging group projects, and access practical internship opportunities. Whether you’re a beginner looking to get their first job or a seasoned professional looking to up-skill even further, Pluralcode’s learning structure will help you get there."
             className="w-100 why whyh text-white pseccolorbg  p-lg-4"
           />
         </div>

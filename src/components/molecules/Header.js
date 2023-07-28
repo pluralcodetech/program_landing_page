@@ -5,7 +5,7 @@ import Navbar from '../atom/Navbar'
 
 const Header = () => {
   return (
-    <div className='pad pdhead sticky-top w-100 d-flex stk ind upbg justify-content-between align-items-center'>
+    <div className='pad pdhead bg-white sticky-top w-100 d-flex stk ind upbg justify-content-between align-items-center'>
       <div className='logosize'>
         <Logo src={plcLogo} alt="Pluralcode"/>
       </div>

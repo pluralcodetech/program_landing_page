@@ -20,26 +20,13 @@ import { Element } from "react-scroll";
 
 const Certificate = () => {
   return (
-    <div className="pad certbg">
+    <div className="pad certbg pt-lg-5 mt-3 mt-lg-5">
       <Element name="cert" id="cert">
         <ul className="nav nav-tabs mb-3 lineul" id="pills-tab" role="tablist">
+          
           <li className="nav-item" role="presentation">
             <button
               className="nav-link active py-3"
-              id="pills-home-tab"
-              data-bs-toggle="pill"
-              data-bs-target="#pills-home"
-              type="button"
-              role="tab"
-              aria-controls="pills-home"
-              aria-selected="true"
-            >
-              Certificate Programs
-            </button>
-          </li>
-          <li className="nav-item" role="presentation">
-            <button
-              className="nav-link py-3"
               id="pills-profile-tab"
               data-bs-toggle="pill"
               data-bs-target="#pills-profile"
@@ -51,24 +38,35 @@ const Certificate = () => {
               Diploma Programs
             </button>
           </li>
+          <li className="nav-item" role="presentation">
+            <button
+              className="nav-link py-3"
+              id="pills-home-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-home"
+              type="button"
+              role="tab"
+              aria-controls="pills-home"
+              aria-selected="true"
+            >
+              Entry-Level Programs
+            </button>
+          </li>
         </ul>
         <div className="tab-content" id="pills-tabContent">
           <div
-            className="tab-pane fade show active"
+            className="tab-pane fade  "
             id="pills-home"
             role="tabpanel"
             aria-labelledby="pills-home-tab"
           >
-            <section className="text-center py-4">
-              <h2 className="pseccolor fs-1">Certificate Programs</h2>
+            <section className="text-center py-5">
+              <h2 className="pseccolor fs-1">Entry-Level Programs</h2>
               <p className="cert pt-md-3 pb-4 m-auto navtextcolor">
-                Choose the <span className="ptcolor">12-Weekends</span>{" "}
-                Certificate Course you would like to learn and click the link
-                underneath to chat with the Student Advisor and begin your
-                enrollment.
+                Choose the <span className="ptcolor">2-Months</span> Entry-Level Certificate Course you would like to learn and click the link underneath to chat with the Student Advisor and begin your enrollment.
               </p>
             </section>
-            <section className="row gap-4 seccert  justify-content-between">
+            <section className="row px-2 px-lg-0 gap-4 seccert  justify-content-between">
               <div
                 className="col-sm-12 col-md-12 col-lg-3 imgfolder shadow-lg"
                 data-aos="zoom-in-up"
@@ -86,16 +84,15 @@ const Certificate = () => {
                     </p>
                   </div>
                   <div className="d-flex align-items-center">
-                    <box-icon
+                    {/* <box-icon
                       type="logo"
                       name="whatsapp"
                       color="#F8991D"
-                    ></box-icon>
+                    ></box-icon> */}
                     <a
                       href="https://wa.me/2347083153185?text=I'm%20interested%20in%20your%20Product%20Design%20Course"
-                      className="ptcolor text-decoration-none ps-1"
-                    >
-                      Speak to Advisor
+                      className="ptcolor text-decoration-none"
+                    >Enroll Now
                     </a>
                   </div>
                 </div>
@@ -120,17 +117,13 @@ const Certificate = () => {
                     </p>
                   </div>
                   <div className="d-flex align-items-center">
-                    <box-icon
-                      type="logo"
-                      name="whatsapp"
-                      color="#F8991D"
-                    ></box-icon>
+                    
                     <a
                       href="https://wa.me/2349169190508?text=I'm%20interested%20in%20your%20Product%20Management%20Course
                     "
-                      className="ptcolor text-decoration-none ps-1"
+                      className="ptcolor text-decoration-none"
                     >
-                      Speak to Advisor
+                      Enroll Now
                     </a>
                   </div>
                 </div>
@@ -152,16 +145,12 @@ const Certificate = () => {
                     </p>
                   </div>
                   <div className="d-flex align-items-center">
-                    <box-icon
-                      type="logo"
-                      name="whatsapp"
-                      color="#F8991D"
-                    ></box-icon>
+                    
                     <a
                       href="https://wa.me/2349134244201?text=I'm%20interested%20in%20your%20Product%20Business%20Analytics:080"
-                      className="ptcolor text-decoration-none ps-1"
+                      className="ptcolor text-decoration-none"
                     >
-                      Speak to Advisor
+                      Enroll Now
                     </a>
                   </div>
                 </div>
@@ -184,23 +173,19 @@ const Certificate = () => {
                     </p>
                   </div>
                   <div className="d-flex align-items-center">
-                    <box-icon
-                      type="logo"
-                      name="whatsapp"
-                      color="#F8991D"
-                    ></box-icon>
+                    
                     <a
                       href="https://wa.me/2349169190508?text=I'm%20interested%20in%20your%20Project%20Management%20Course"
-                      className="ptcolor text-decoration-none ps-1"
+                      className="ptcolor text-decoration-none"
                     >
-                      Speak to Advisor
+                      Enroll Now
                     </a>
                   </div>
                 </div>
               </div>
             </section>
 
-            <section className="row gap-4 seccert pb-5 mb-5 justify-content-between align-items-center">
+            <section className="row px-2 px-lg-0 gap-4 seccert pb-5 mb-5 justify-content-between align-items-center">
               <div
                 className="col-sm-12 col-md-12 col-lg-4 imgfolder shadow-lg"
                 data-aos="zoom-in-up"
@@ -218,16 +203,12 @@ const Certificate = () => {
                     </p>
                   </div>
                   <div className="d-flex align-items-center">
-                    <box-icon
-                      type="logo"
-                      name="whatsapp"
-                      color="#F8991D"
-                    ></box-icon>
+                    
                     <a
                       href="https://wa.me/2349120733972?text=I%27m%20interested%20in%20your%20Data%20Analytics%20Diploma"
-                      className="ptcolor text-decoration-none ps-1"
+                      className="ptcolor text-decoration-none"
                     >
-                      Speak to Advisor
+                      Enroll Now
                     </a>
                   </div>
                 </div>
@@ -250,16 +231,12 @@ const Certificate = () => {
                     </p>
                   </div>
                   <div className="d-flex align-items-center">
-                    <box-icon
-                      type="logo"
-                      name="whatsapp"
-                      color="#F8991D"
-                    ></box-icon>
+                    
                     <a
                       href="https://wa.me/2347040910513?text=I'm%20interested%20in%20your%20Software%20Development%20Course"
-                      className="ptcolor text-decoration-none ps-1"
+                      className="ptcolor text-decoration-none"
                     >
-                      Speak to Advisor
+                      Enroll Now
                     </a>
                   </div>
                 </div>
@@ -282,16 +259,12 @@ const Certificate = () => {
                     </p>
                   </div>
                   <div className="d-flex align-items-center">
-                    <box-icon
-                      type="logo"
-                      name="whatsapp"
-                      color="#F8991D"
-                    ></box-icon>
+                  
                     <a
                       href="https://wa.me/2347083153185?text=I'm%20interested%20in%20your%20Product%20Cloud%20Computing"
-                      className="ptcolor text-decoration-none ps-1"
+                      className="ptcolor text-decoration-none"
                     >
-                      Speak to Advisor
+                      Enroll Now
                     </a>
                   </div>
                 </div>
@@ -313,16 +286,12 @@ const Certificate = () => {
                     </p>
                   </div>
                   <div className="d-flex align-items-center">
-                    <box-icon
-                      type="logo"
-                      name="whatsapp"
-                      color="#F8991D"
-                    ></box-icon>
+                  
                     <a
                       href="https://wa.me/2349169190508?text=I'm%20interested%20in%20your%20SCRUM%20Project%20Management%20Course"
-                      className="ptcolor text-decoration-none ps-1"
+                      className="ptcolor text-decoration-none"
                     >
-                      Speak to Advisor
+                      Enroll Now
                     </a>
                   </div>
                 </div>
@@ -330,7 +299,7 @@ const Certificate = () => {
             </section>
           </div>
           <div
-            className="tab-pane fade"
+            className="tab-pane fade show active"
             id="pills-profile"
             role="tabpanel"
             aria-labelledby="pills-profile-tab"
@@ -338,12 +307,12 @@ const Certificate = () => {
             <section className="text-center py-4">
               <h2 className="pseccolor fs-1">Diploma Programs</h2>
               <p className="cert pt-md-3 pb-4 m-auto navtextcolor">
-                Choose the <span className="ptcolor">20-Weekends</span> Diploma
+                Choose the <span className="ptcolor">4-Months</span> Diploma
                 Program you would like to learn and click the Link underneath to
                 chat with the Student Advisor and begin your enrollment.
               </p>
             </section>
-            <section className="row gap-4 seccert pt-3 pb-5 mb-5 justify-content-between">
+            <section className="row px-2 px-lg-0 gap-4 seccert pt-3 pb-5 mb-5 justify-content-between">
               <div
                 className="col-sm-12 col-md-12 col-lg-3 imgfolder shadow-lg"
                 data-aos="zoom-in-up"
@@ -361,16 +330,12 @@ const Certificate = () => {
                     </p>
                   </div>
                   <div className="d-flex align-items-center">
-                    <box-icon
-                      type="logo"
-                      name="whatsapp"
-                      color="#F8991D"
-                    ></box-icon>
+                   
                     <a
                       href="https://wa.me/2349169190508?text=I%27m%20interested%20in%20your%20Product%20Management%20Diploma"
-                      className="ptcolor text-decoration-none ps-1"
+                      className="ptcolor text-decoration-none"
                     >
-                      Speak to Advisor
+                      Enroll Now
                     </a>
                   </div>
                 </div>
@@ -393,16 +358,12 @@ const Certificate = () => {
                     </p>
                   </div>
                   <div className="d-flex align-items-center">
-                    <box-icon
-                      type="logo"
-                      name="whatsapp"
-                      color="#F8991D"
-                    ></box-icon>
+                    
                     <a
                       href="https://wa.me/2349120733972?text=I%27m%20interested%20in%20your%20Data%20Analytics%20Diploma"
-                      className="ptcolor text-decoration-none ps-1"
+                      className="ptcolor text-decoration-none"
                     >
-                      Speak to Advisor
+                      Enroll Now
                     </a>
                   </div>
                 </div>
@@ -417,23 +378,19 @@ const Certificate = () => {
                 </a>
                 <div className="pt-3 d-flex flex-column">
                   <div className="certh ">
-                    <h5 className="">Diploma in Cloud Computing.</h5>
+                    <h5 className="">Diploma in Cloud Dev.</h5>
                     <p className="text">
                       Master Cloud Computing and development with AWS and MS
                       Azure.
                     </p>
                   </div>
                   <div className="d-flex align-items-center">
-                    <box-icon
-                      type="logo"
-                      name="whatsapp"
-                      color="#F8991D"
-                    ></box-icon>
+                   
                     <a
                       href="https://wa.me/2347083153185?text=I'm%20interested%20in%20your%20Product%20Cloud%20Computing"
-                      className="ptcolor text-decoration-none ps-1"
+                      className="ptcolor text-decoration-none"
                     >
-                      Speak to Advisor
+                      Enroll Now
                     </a>
                   </div>
                 </div>
@@ -456,22 +413,18 @@ const Certificate = () => {
                     </p>
                   </div>
                   <div className="d-flex align-items-center">
-                    <box-icon
-                      type="logo"
-                      name="whatsapp"
-                      color="#F8991D"
-                    ></box-icon>
+                 
                     <a
                       href="https://wa.me/2347040910513?text=I'm%20interested%20in%20your%20Full%20Stack%20Course"
-                      className="ptcolor text-decoration-none ps-1"
+                      className="ptcolor text-decoration-none"
                     >
-                      Speak to Advisor
+                      Enroll Now
                     </a>
                   </div>
                 </div>
               </div>
             </section>
-            <section className="row gap-4 seccert pt-3 pb-5 mb-5 justify-content-between">
+            <section className="row px-2 px-lg-0 gap-4 seccert pt-3 pb-5 mb-5 justify-content-between">
               <div
                 className="col-sm-12 col-md-12 col-lg-3 imgfolder shadow-lg"
                 data-aos="zoom-in-up"
@@ -489,16 +442,12 @@ const Certificate = () => {
                     </p>
                   </div>
                   <div className="d-flex align-items-center">
-                    <box-icon
-                      type="logo"
-                      name="whatsapp"
-                      color="#F8991D"
-                    ></box-icon>
+                   
                     <a
                       href="https://wa.me/2347083153185?text=I'm%20interested%20in%20your%20Product%20Design%20Course"
-                      className="ptcolor text-decoration-none ps-1"
+                      className="ptcolor text-decoration-none"
                     >
-                      Speak to Advisor
+                      Enroll Now
                     </a>
                   </div>
                 </div>
@@ -521,16 +470,12 @@ const Certificate = () => {
                     </p>
                   </div>
                   <div className="d-flex align-items-center">
-                    <box-icon
-                      type="logo"
-                      name="whatsapp"
-                      color="#F8991D"
-                    ></box-icon>
+                   
                     <a
                       href="https://wa.me/2349169190508?text=I'm%20interested%20in%20your%20Project%20Management%20Course"
-                      className="ptcolor text-decoration-none ps-1"
+                      className="ptcolor text-decoration-none"
                     >
-                      Speak to Advisor
+                      Enroll Now
                     </a>
                   </div>
                 </div>
@@ -552,16 +497,12 @@ const Certificate = () => {
                     </p>
                   </div>
                   <div className="d-flex align-items-center">
-                    <box-icon
-                      type="logo"
-                      name="whatsapp"
-                      color="#F8991D"
-                    ></box-icon>
+                 
                     <a
                       href="https://wa.me/2349134244201?text=I'm%20interested%20in%20your%20Product%20Business%20Analytics"
-                      className="ptcolor text-decoration-none ps-1"
+                      className="ptcolor text-decoration-none"
                     >
-                      Speak to Advisor
+                      Enroll Now
                     </a>
                   </div>
                 </div>
@@ -584,16 +525,12 @@ const Certificate = () => {
                     </p>
                   </div>
                   <div className="d-flex align-items-center">
-                    <box-icon
-                      type="logo"
-                      name="whatsapp"
-                      color="#F8991D"
-                    ></box-icon>
+                    
                     <a
                       href="https://wa.me/2347040910513?text=I'm%20interested%20in%20your%20Cyber%20Security%20Course"
-                      className="ptcolor text-decoration-none ps-1"
+                      className="ptcolor text-decoration-none"
                     >
-                      Speak to Advisor
+                      Enroll Now
                     </a>
                   </div>
                 </div>
