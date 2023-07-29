@@ -475,6 +475,9 @@ animation: glow 2s ease-in-out infinite alternate;
   width: 200px;
   margin: 0.5rem 0;
 }
+.footf{
+  width:43%;
+}
 .foot h5{
   color: #353535;
   font-size: 17px;
@@ -640,10 +643,15 @@ select {
   appearance: none;
   background-repeat: no-repeat;
   background-image: url(./images/ang.png);
-  background-position: right 60px top 1em, right 10px top 1em;
+  background-position: right 20% top 1em, right 10px top 1em;
   background-size:25px 25px 25px 25px;
 }
 
+.sidebar{
+  width: 100%;
+  /* margin: 0.5rem; */
+  border-bottom-right-radius: 2rem ;
+}
 
 
 
@@ -687,13 +695,21 @@ select {
   .imgba{
     width: 50%;
   }
+  /* select{
+    background-position: right 36% top 1em, right 10px top 1em;
+  } */
 }
 @media (min-width:1023px) and (max-width:1025px){
   
   .upp{
     padding-top: 15%;
   }
-  
+  .upperw{
+    width: 60%;
+  }
+  .upIm{
+    width: 80%;
+  }
   .footw{
     width: 40%;
   }
@@ -729,9 +745,7 @@ select {
   .certh{
     height: 140px;
   }
-  .btncont{
-    width: 50%;
-  }
+  
 
 }
 
@@ -1105,15 +1119,17 @@ select {
   width: 100%;
  }
  .upIm{
-  width: 100%;
+  width: 85%;
  }
  .dipEnt{
   font-size: 20px;
  }
  .btncont{
-  width: 75%;
+  width: 100%;
  }
- 
+ select{
+  background-position: right 27% top 1em, right 10px top 1em;
+ }
   
   
 }
@@ -1133,7 +1149,7 @@ select {
     margin: auto;
   }
   select{
-    background-position: right 200px top 1em, right 10px top 1em;
+    background-position: right 40% top 1em, right 10px top 1em;
     }
 }
 @media (max-width:500px) {
@@ -1145,6 +1161,7 @@ select {
   #pills-home-tab, #pills-profile-tab{
     font-size: 14px; 
   }
+  
 }
 @media (min-width:280px) and (max-width:320px) {
   .encol{
@@ -1164,5 +1181,8 @@ select {
   }
   #pills-home-tab, #pills-profile-tab{
     font-size: 12px; padding: 5px;
+  }
+  select{
+    background-position: right 15% top 1em, right 10px top 1em;
   }
 }

@@ -1,23 +1,36 @@
 const List =[
     {
-        top:"Why do I have to speak with your Student Advisor?",
-        body:`Our Advisors are there to get to know your strengths, your background, location, occupation, interests etc and use that to make suggestions for your programs as well as answer all your inquiries on a more human note. This has been proven to yield extraordinary results amongst our students and that is why we insist on it prior to enrollment.`
+        top:"What is the advantage of PluralCode diploma program?",
+        body:`Diplomas make you job-ready, faster
+
+        Many university degrees will focus on theory-based knowledge that may not guarantee you the career or position you want. Vocational education like this, gives you the opportunity to understand the skills you need while allowing you to put these skills into practice while you study. That's what our diploma program offers in Pluralcode. 
+        `
     },
     {
-        top:"Are Certificates awarded at the end of the program?",
-        body:`Yes, Certificate of completion is awarded at the end of all our programs.`
+        top:"What is the purpose of the diploma?",
+        body:`Our Diplomas program  focuses on specific skills for career-readiness. You're awarded for completing a diploma program for having in-depth and specific coursework that is more specialized than a certification.`
     },
     {
-        top:"How long will it take to find a job after learning?",
-        body:`It depends on your learning speed, practicing, and creating a good portfolio can take a few months.`
+        top:"Can anybody apply for the Diploma program?",
+        body:`Yes anybody is eligible to apply for the Diploma programs. You may be required to undergo a test to ascertain your experience.`
     },
     {
-        top:"Can I pay in Installments?",
-        body:`Yes, the installment plan typically attracts a slightly higher fee, but you have the opportunity to pay only 70% upfront, with the final installment coming within the first month of your program.`
+        top:"What are the benefits of your diploma program ?",
+        body:`This offers you a chance to add an internationally recognized Professional Diploma to your CV. Furthermore, our internship program ensures you already have the required real-world work experience in your chosen field which then prepares you to assume professional roles after your graduation.
+        `
     },
     {
-        top:"What is required of me to start a class?",
-        body:`All our Certificate Courses are beginner friendly, and so all you really need is a working Laptop, a Notebook, and a great willingness to learn.`
-    }
+        top:"What's the difference between the diploma program the certification program?",
+        body:`Our certification program are essentially a testament of course completion. Our Diploma program however does much more which is to position you as an advanced professional in that career having gotten the training under a 7 months diploma program.`
+    },
+    {
+        top:"How many months is your diploma program?",
+        body:`The diploma program takes between 6-8 months across all courses.`
+    },
+    {
+        top:"Is the Diploma program internationally recognized?",
+        body:`Yes, our Diploma programs are fully recognized by global accreditation boards in the USA, Canada & Europe.`
+    },
+    
 ]
 export default List

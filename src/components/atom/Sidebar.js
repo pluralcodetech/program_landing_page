@@ -13,8 +13,8 @@ const Sidebar = () => {
   //   return setMoredp(!moredp);
   // };
   return (
-    <div className="w-100  ab d-block d-lg-none ">
-      <div className="navbtntwo d-flex flex-column gap-3" >
+    <div className="  ab d-block d-lg-none sidebar p-4 ">
+      <div className="navbtntwo d-flex flex-column gap-4" >
         <Link
           to="cert"
           offset={-120}
@@ -82,7 +82,7 @@ const Sidebar = () => {
             )}
           </div> */}
       </div>
-      <div className="navbtnone d-flex gap-4 mt-4">
+      <div className="navbtnone d-flex gap-4 pt-4 mt-2">
         <Link to="beginen" >
           <Button
             children="Begin Enrollment"

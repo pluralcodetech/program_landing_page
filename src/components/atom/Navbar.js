@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 import Button from "./Button";
 import Logo from "./Logo";
 import icon from "../../images/icon.png";
+import icon2 from "../../images/closeicon.png";
 import Sidebar from "./Sidebar";
 import "boxicons";
 
@@ -103,7 +104,7 @@ const Navbar = () => {
         </div>
       </div>
       <div onClick={handleNav}>
-        <Logo src={icon} className="d-block d-lg-none hamsize" />
+        {nav ? <Logo src={icon2} className="d-block d-lg-none hamsize" /> : <Logo src={icon} className="d-block d-lg-none hamsize" />}
       </div>
       {nav && <Sidebar /> }
     </>

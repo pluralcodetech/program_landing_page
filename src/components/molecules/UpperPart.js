@@ -37,21 +37,21 @@ const UpperPart = () => {
         <div className="upIm m-auto pt-4">
           <Logo src={upImg} className="w-100"/>
 
-        <div className="btncont m-auto mt-4 d-flex flex-column-reverse flex-lg-row gap-lg-2 bg-white">
+        <div className="btncont m-auto mt-4 d-flex flex-column flex-lg-row gap-lg-2 bg-white">
           <select  className="text-decoration-none border-0 pseccolor text-center justify-content-center w-100 d-flex align-items-center">
           {/* <Button
             children="Select"
             className="btn pseccolor"
             />
             <box-icon name='chevron-down' color="#222057"></box-icon> */}
-            <option className="">Select</option>
+            <option className="">Select Course</option>
             {entcou.map(each=><option>{each.name}</option>)}
         {dipcou.map(each=><option>{each.name}</option>)} 
             </select>
           <Link  to="#" className="w-100" >
           <Button
             children="Start Learning"
-            className="btn button px-4 pbcolor bb"
+            className="btn button px-4 py-2 pbcolor bb"
             />
             </Link>
         </div>

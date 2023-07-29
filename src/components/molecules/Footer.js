@@ -7,16 +7,16 @@ import twit from "../../images/Group (1).png";
 import link from "../../images/Group (2).png";
 import tik from '../../images/Group 20686.png';
 import { Link } from "react-router-dom";
-import tel from '../../images/phone-call 1.png'
-import inout from '../../images/Instagram Outline.png'
-import email from '../../images/envelope 2.png'
-import faceout from '../../images/Facebook Outline.png'
-import twitout from '../../images/Twitter Outline.png'
+// import tel from '../../images/phone-call 1.png'
+// import inout from '../../images/Instagram Outline.png'
+// import email from '../../images/envelope 2.png'
+// import faceout from '../../images/Facebook Outline.png'
+// import twitout from '../../images/Twitter Outline.png'
 
 const Footer = () => {
   return (
-    <div className="pad pt-5 foot w-100 d-flex flex-column flex-lg-row gap-5 justify-content-between">
-      <div>
+    <div className="pad pt-5 foot w-100 d-flex flex-column flex-lg-row gap-5 gap-lg-0 justify-content-between">
+      <div className="footf">
         <Logo src={plogo} className="ftlogo"/>
         <p className="pt-4 py-2 foottp">Your global tech journey begins here. Master the skills you need to start.</p>
         <div className="d-flex gap-3">
@@ -31,14 +31,12 @@ const Footer = () => {
       <div className="w-100 row foottwo m-0 gap-4 gap-lg-0 justify-content-between  justify-content-lg-start pb-lg-5">
         <div className="p-0 col-sm-5 smww col-md-4 col-lg-3 d-flex flex-column gap-2">
           <h5 className="">Top Courses</h5>
-          <Link to="/#cert">Data Analysis</Link>
-          <Link to="/#cert">Data Science</Link>
-          <Link to="/#cert">Data Engineering</Link>
-          <Link to="/#cert">Full-Stack Development</Link>
-          <Link to="/#cert">Front-End Development</Link>
+          <Link to="/#cert">Cyber Security</Link>
           <Link to="/#cert">Product Design</Link>
           <Link to="/#cert">Product Management</Link>
-          <Link to="/#cert">Product Marketing</Link>
+          <Link to="/#cert">Scrum Product Management</Link>
+          <Link to="/#cert">Agile Project Management</Link>
+          
         </div>
         <div className="p-0 col-sm-5 smww col-md-4 col-lg-3 d-flex flex-column gap-2">
           <h5 className="">Platforms</h5>
@@ -46,37 +44,40 @@ const Footer = () => {
           <Link to="https://pluralcode.academy/webseries">Web Series</Link>
           <Link to="https://pluralcode.academy/exclusive">Exclusive</Link>
         </div>
-        <div className="p-0 col-sm-5 smww col-md-4 col-lg-3 d-flex flex-column gap-2">
+        {/* <div className="p-0 col-sm-5 smww col-md-4 col-lg-3 d-flex flex-column gap-2">
           <h5 className="">Schools</h5>
           <Link to="https://pluralcode.academy/schools/data">School of Data</Link>
           <Link to="https://pluralcode.academy/schools/product">School of Product</Link>
           <Link to="https://pluralcode.academy/schools/programming">School of Engineering</Link>
-        </div>
+        </div> */}
         <div className="p-0 col-sm-5 smww col-md-4 col-lg-3 d-flex flex-column gap-2">
-          <h5 className="">Company</h5>
-          <Link to="/#whypl">Why Pluralcode</Link>
-          <Link to="/book-session">Talk to Student Advisor</Link>
-          <Link to="https://pluralcode.academy/mentor">Become a Mentor</Link>
-          <Link to="https://pluralcode.academy/services">Custom Software Development</Link>
+          <h5 className="">Enterprise</h5>
           <Link to="https://pluralcode.academy/corporate-training">Corporate Trainings</Link>
+          <Link to="https://pluralcode.academy/services">Custom Software Development</Link>
           <Link to="https://pluralcode.academy/hire-talent">Hire Our Talents</Link>
         </div>
         <div className="p-0 col-sm-5 smww col-md-4 col-lg-3 d-flex flex-column gap-2">
+          <h5 className="">More</h5>
+          <Link to="/#whypl">Why Pluralcode</Link>
+          <Link to="/book-session">Talk to Student Advisor</Link>
+          <Link to="https://pluralcode.academy/mentor">Become a Mentor</Link>
+        </div>
+        {/* <div className="p-0 col-sm-5 smww col-md-4 col-lg-3 d-flex flex-column gap-2">
           <h5 className="">Resources</h5>
           <Link to="https://pluralcode.academy/webseries">Webinar series</Link>
           <Link to="https://pluralcode.academy/sandbox">Events</Link>
           <Link to="/#faq">FAQs</Link>
           <Link to="/#accredit">Testimonials</Link>
           <Link to="/#talent">Where Our Talents Works</Link>
-        </div>
-        <div className="p-0 col-sm-5 smww col-md-4 col-lg-3 d-flex flex-column gap-2">
+        </div> */}
+        {/* <div className="p-0 col-sm-5 smww col-md-4 col-lg-3 d-flex flex-column gap-2">
           <h5 className="">Policies</h5>
           <Link to="https://pluralcode.academy/payment/terms.html">Terms and Condition</Link>
           <Link to="https://pluralcode.academy/payment/terms.html">Student Loan Policy</Link>
           <Link to="https://pluralcode.academy/payment/terms.html">Refunds Policy</Link>
           <Link to="https://pluralcode.academy/payment/terms.html">Privacy Policy</Link>
-        </div>
-        <div className="d-flex cw p-0 col-sm-5 col-md-4 col-lg-3 flex-column gap-2">
+        </div> */}
+        {/* <div className="d-flex cw p-0 col-sm-5 col-md-4 col-lg-3 flex-column gap-2">
           <h5 className="">Contact</h5>
           <div className="d-flex gap-3 align-items-center"><Logo className="flw" src={tel}/><Link to="tel:+2347083153185">+(234) 708-315-3185.</Link></div>
           <div className="d-flex gap-3 align-items-center"><Logo className="flw" src={tel}/><a href="tel:+2348131529862">+(234) 813-152-9862.</a></div>
@@ -84,7 +85,7 @@ const Footer = () => {
           <div className="d-flex gap-3 align-items-center"><Logo className="flw" src={inout} /><a href="https://instagram.com/pluralcode_academy?igshid=MzRlODBiNWFlZA==">pluralcode_academy</a></div>
           <div className="d-flex gap-3 align-items-center"><Logo className="flw" src={faceout}/><a href="https://www.facebook.com/PlcTechAcademy?mibextid=LQQJ4d">pluralcode_academy</a></div>
           <div className="d-flex gap-3 align-items-center"><Logo className="flw" src={email}/><Link to="mailto:Info@pluralcode.academy">support@pluralcode.academy</Link></div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

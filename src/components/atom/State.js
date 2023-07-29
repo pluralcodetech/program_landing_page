@@ -12,7 +12,7 @@ const State = ({list}) => {
   };
 
   return (
-    <div className="pad py-2 faqlist">
+    <div className=" py-2 faqlist">
       {!title && (
         <div
           className="w-100 py-3 px-lg-4 d-flex align-items-center justify-content-between border-bottom rounded-4"
@@ -39,9 +39,9 @@ const State = ({list}) => {
       )}
       {title && (
         <div className="py-3 px-lg-4 faq">
-          <p className="faqthin">
+          <pre className="faqthin">
            {body}
-          </p>
+          </pre>
         </div>
       )}
     </div>

@@ -58,9 +58,7 @@ const Tuition = () => {
                 <tr className="tuitc">
                   <td className="">Program Type</td>
                   <td className="">Full Payment Plan (US)</td>
-                  <td>Part Payment Plan (US)</td>
                   <td>Full Payment Plan (NG)</td>
-                  <td>Part Payment Plan (NG)</td>
                 </tr>
               </thead>
               {cert.map((cert) => (
@@ -68,11 +66,9 @@ const Tuition = () => {
                   <tr className="tuitcc">
                     <td>{cert["name"]}</td>
                     <td>$ {isNaN(cert["usdprice"]) ? 0 : numFor.format(cert["usdprice"])}</td>
-                    {isNaN(cert["partpaymentusd"]) ? <td>-</td> :<td>$ {numFor.format(cert["partpaymentusd"])}</td>
-                      }
+                  
                     <td>&#8358; {isNaN(cert["paymentFeengn"]) ? 0 : numFor.format(cert["paymentFeengn"])}</td>
-                     {isNaN(cert["partpaymentfeengn"]) ? <td>-</td> :<td>&#8358; {numFor.format(cert["partpaymentfeengn"])}</td>
-}
+                    
                     
                   </tr>
                 </tbody>
