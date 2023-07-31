@@ -486,7 +486,7 @@ animation: glow 2s ease-in-out infinite alternate;
   color:#0C0C0C;
   text-decoration: none;
   font-family: Gilroy-regular;
-  font-size: 14px;
+  font-size: 13px;
 }
 .begin-enroll{
   background-color: #FFFDFA;
@@ -613,9 +613,9 @@ tr{
 .dan{
   display: none;
 }
-.cw{
+/* .cw{
   width:50% ;
-}
+} */
 .smww{
   margin-bottom: 2rem;
 }
@@ -999,7 +999,7 @@ select {
     width: 40%;
   }
   .foot a{
-    font-size:12px;
+    font-size:14px;
   }
   .footw h5{
     font-size: 16px;
@@ -1108,13 +1108,13 @@ select {
     margin: auto;
     margin-top: 50%;
   }
-  .smww{
+  /* .smww{
     width: 45%;
     margin-bottom: 0;
-  }
-  .cw{
+  } */
+  /* .cw{
     width:100% ;
-  }
+  } */
  .press-box{
   width: 100%;
  }
@@ -1128,8 +1128,11 @@ select {
   width: 100%;
  }
  select{
-  background-position: right 27% top 1em, right 10px top 1em;
+  background-position: right 25% top 1em, right 10px top 1em;
  }
+ .footf{
+  width:100%;
+}
   
   
 }
@@ -1163,7 +1166,7 @@ select {
   }
   
 }
-@media (min-width:280px) and (max-width:320px) {
+@media (min-width:280px) and (max-width:350px) {
   .encol{
     flex-direction: column;
   }
