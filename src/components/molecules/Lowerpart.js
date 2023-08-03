@@ -45,7 +45,7 @@ const Lowerpart = () => {
             {entcou.map(each=><option>{each.name}</option>)}
         {dipcou.map(each=><option>{each.name}</option>)} 
             </select>
-          <Link  to="#" className="w-100" >
+          <Link  to="https://pluralcode.academy/admissions/" className="w-100" >
           <Button
             children="Start Learning"
             className="btn button px-4 pbcolor bb"

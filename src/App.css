@@ -645,6 +645,7 @@ select {
   background-image: url(./images/ang.png);
   background-position: right 20% top 1em, right 10px top 1em;
   background-size:25px 25px 25px 25px;
+  cursor: pointer;
 }
 
 .sidebar{
@@ -1186,6 +1187,6 @@ select {
     font-size: 12px; padding: 5px;
   }
   select{
-    background-position: right 15% top 1em, right 10px top 1em;
+    background-position: right 12% top 1em, right 10px top 1em;
   }
 }

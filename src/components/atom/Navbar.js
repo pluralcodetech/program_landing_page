@@ -14,14 +14,14 @@ const Navbar = () => {
   const handleNav = () => {
     return setNav(!nav);
   };
-  
+
   // const handleDp = () => {
   //   return setMoredp(!moredp);
   // };
   // const handleCDp = () => {
   //   return setMoredp(!moredp);
   // };
-  
+
   return (
     <>
       <div className="w-100 d-none redd d-lg-flex justify-content-between align-items-center">
@@ -54,7 +54,7 @@ const Navbar = () => {
           >
             Testimonies
           </Link>
-          
+
           <Link
             to="accredit"
             offset={-270}
@@ -95,8 +95,9 @@ const Navbar = () => {
         </div>
 
         <div className="navbtnone d-flex justify-content-end">
-          <Link to="beginen" className="w-100" >
+          <Link className="w-100" >
             <Button
+              onClick={() => window.location.href = "https://pluralcode.academy/admissions/"}
               children="Begin Enrollment"
               className="w-100 pbcolor btn button"
             />
@@ -106,7 +107,7 @@ const Navbar = () => {
       <div onClick={handleNav}>
         {nav ? <Logo src={icon2} className="d-block d-lg-none hamsize" /> : <Logo src={icon} className="d-block d-lg-none hamsize" />}
       </div>
-      {nav && <Sidebar /> }
+      {nav && <Sidebar />}
     </>
   );
 };

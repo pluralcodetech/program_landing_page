@@ -50,7 +50,7 @@ const Sidebar = () => {
         >
           Accreditation
         </Link>
-        
+
         {/* <div className="d-flex align-items-center more" onMouseEnter={handleDp} onMouseLeave={handleCDp}>
             <Link
               to=""
@@ -83,12 +83,13 @@ const Sidebar = () => {
           </div> */}
       </div>
       <div className="navbtnone d-flex gap-4 pt-4 mt-2">
-        <Link to="beginen" >
-          <Button
-            children="Begin Enrollment"
-            className="w-100 pbcolor btn button"
-          />
-        </Link>
+
+        <Button
+          onClick={() => window.location.href = "https://pluralcode.academy/admissions/"}
+          children="Begin Enrollment"
+          className="w-100 pbcolor btn button"
+        />
+
         {/* <Button
           children="Speak to Advisor"
           className="ptcolor px-4 btn pborder"

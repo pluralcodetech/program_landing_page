@@ -72,7 +72,7 @@ const Certificate = () => {
                 data-aos="zoom-in-up"
                 data-aos-duration="2000"
               >
-                <a href="https://wa.me/2347083153185?text=I'm%20interested%20in%20your%20Product%20Design%20Course">
+                <a href="https://pluralcode.academy/admissions/">
                   <Logo src={frame1} className="w-100" />
                 </a>
                 <div className="pt-3 d-flex flex-column">
@@ -90,7 +90,7 @@ const Certificate = () => {
                       color="#F8991D"
                     ></box-icon> */}
                     <a
-                      href="https://wa.me/2347083153185?text=I'm%20interested%20in%20your%20Product%20Design%20Course"
+                      href="https://pluralcode.academy/admissions/"
                       className="ptcolor text-decoration-none"
                     >Enroll Now
                     </a>
@@ -104,7 +104,7 @@ const Certificate = () => {
                 data-aos-duration="2000"
               >
                 <a
-                  href="https://wa.me/2349169190508?text=I'm%20interested%20in%20your%20Product%20Management%20Course
+                  href="https://pluralcode.academy/admissions/
 "
                 >
                   <Logo src={frame2} className="w-100" />
@@ -119,7 +119,7 @@ const Certificate = () => {
                   <div className="d-flex align-items-center">
                     
                     <a
-                      href="https://wa.me/2349169190508?text=I'm%20interested%20in%20your%20Product%20Management%20Course
+                      href="https://pluralcode.academy/admissions/
                     "
                       className="ptcolor text-decoration-none"
                     >
@@ -133,7 +133,7 @@ const Certificate = () => {
                 data-aos="zoom-in-up"
                 data-aos-duration="2000"
               >
-                <a href="https://wa.me/2349134244201?text=I'm%20interested%20in%20your%20Product%20Business%20Analytics">
+                <a href="https://pluralcode.academy/admissions/">
                   <Logo src={frame3} className="w-100" />
                 </a>
                 <div className="pt-3 d-flex flex-column">
@@ -147,7 +147,7 @@ const Certificate = () => {
                   <div className="d-flex align-items-center">
                     
                     <a
-                      href="https://wa.me/2349134244201?text=I'm%20interested%20in%20your%20Product%20Business%20Analytics:080"
+                      href="https://pluralcode.academy/admissions/"
                       className="ptcolor text-decoration-none"
                     >
                       Enroll Now
@@ -161,7 +161,7 @@ const Certificate = () => {
                 data-aos="zoom-in-up"
                 data-aos-duration="2000"
               >
-                <a href="https://wa.me/2349169190508?text=I'm%20interested%20in%20your%20Project%20Management%20Course">
+                <a href="https://pluralcode.academy/admissions/">
                   <Logo src={frame4} className="w-100" />
                 </a>
                 <div className="pt-3 d-flex flex-column">
@@ -175,7 +175,7 @@ const Certificate = () => {
                   <div className="d-flex align-items-center">
                     
                     <a
-                      href="https://wa.me/2349169190508?text=I'm%20interested%20in%20your%20Project%20Management%20Course"
+                      href="https://pluralcode.academy/admissions/"
                       className="ptcolor text-decoration-none"
                     >
                       Enroll Now
@@ -191,7 +191,7 @@ const Certificate = () => {
                 data-aos="zoom-in-up"
                 data-aos-duration="2000"
               >
-                <a href="https://wa.me/2349120733972?text=I%27m%20interested%20in%20your%20Data%20Analytics%20Diploma">
+                <a href="https://pluralcode.academy/admissions/">
                   <Logo src={frame5} className="w-100" />
                 </a>
                 <div className="pt-3 d-flex flex-column">
@@ -205,7 +205,7 @@ const Certificate = () => {
                   <div className="d-flex align-items-center">
                     
                     <a
-                      href="https://wa.me/2349120733972?text=I%27m%20interested%20in%20your%20Data%20Analytics%20Diploma"
+                      href="https://pluralcode.academy/admissions/"
                       className="ptcolor text-decoration-none"
                     >
                       Enroll Now
@@ -219,7 +219,7 @@ const Certificate = () => {
                 data-aos="zoom-in-up"
                 data-aos-duration="2000"
               >
-                <a href="https://wa.me/2347040910513?text=I'm%20interested%20in%20your%20Software%20Development%20Course">
+                <a href="https://pluralcode.academy/admissions/">
                   <Logo src={frame6} className="w-100" />
                 </a>
                 <div className="pt-3 d-flex flex-column">
@@ -233,7 +233,7 @@ const Certificate = () => {
                   <div className="d-flex align-items-center">
                     
                     <a
-                      href="https://wa.me/2347040910513?text=I'm%20interested%20in%20your%20Software%20Development%20Course"
+                      href="https://pluralcode.academy/admissions/"
                       className="ptcolor text-decoration-none"
                     >
                       Enroll Now
@@ -247,7 +247,7 @@ const Certificate = () => {
                 data-aos="zoom-in-up"
                 data-aos-duration="2000"
               >
-                <a href="https://wa.me/2347083153185?text=I'm%20interested%20in%20your%20Product%20Cloud%20Computing">
+                <a href="https://pluralcode.academy/admissions/">
                   <Logo src={frame7} className="w-100" />
                 </a>
                 <div className="pt-3 d-flex flex-column">
@@ -261,7 +261,7 @@ const Certificate = () => {
                   <div className="d-flex align-items-center">
                   
                     <a
-                      href="https://wa.me/2347083153185?text=I'm%20interested%20in%20your%20Product%20Cloud%20Computing"
+                      href="https://pluralcode.academy/admissions/"
                       className="ptcolor text-decoration-none"
                     >
                       Enroll Now
@@ -274,7 +274,7 @@ const Certificate = () => {
                 data-aos="zoom-in-up"
                 data-aos-duration="2000"
               >
-                <a href="https://wa.me/2349169190508?text=I'm%20interested%20in%20your%20SCRUM%20Project%20Management%20Course">
+                <a href="https://pluralcode.academy/admissions/">
                   <Logo src={scrum} className="w-100" />
                 </a>
                 <div className="pt-3 d-flex flex-column">
@@ -288,7 +288,7 @@ const Certificate = () => {
                   <div className="d-flex align-items-center">
                   
                     <a
-                      href="https://wa.me/2349169190508?text=I'm%20interested%20in%20your%20SCRUM%20Project%20Management%20Course"
+                      href="https://pluralcode.academy/admissions/"
                       className="ptcolor text-decoration-none"
                     >
                       Enroll Now
@@ -318,7 +318,7 @@ const Certificate = () => {
                 data-aos="zoom-in-up"
                 data-aos-duration="2000"
               >
-                <a href="https://wa.me/2349169190508?text=I%27m%20interested%20in%20your%20Product%20Management%20Diploma">
+                <a href="https://pluralcode.academy/admissions/">
                   <Logo src={frame8} className="w-100" />
                 </a>
                 <div className="pt-3 d-flex flex-column">
@@ -332,7 +332,7 @@ const Certificate = () => {
                   <div className="d-flex align-items-center">
                    
                     <a
-                      href="https://wa.me/2349169190508?text=I%27m%20interested%20in%20your%20Product%20Management%20Diploma"
+                      href="https://pluralcode.academy/admissions/"
                       className="ptcolor text-decoration-none"
                     >
                       Enroll Now
@@ -346,7 +346,7 @@ const Certificate = () => {
                 data-aos="zoom-in-up"
                 data-aos-duration="2000"
               >
-                <a href="https://wa.me/2349120733972?text=I%27m%20interested%20in%20your%20Data%20Analytics%20Diploma">
+                <a href="https://pluralcode.academy/admissions/">
                   <Logo src={frame9} className="w-100" />
                 </a>
                 <div className="pt-3 d-flex flex-column">
@@ -360,7 +360,7 @@ const Certificate = () => {
                   <div className="d-flex align-items-center">
                     
                     <a
-                      href="https://wa.me/2349120733972?text=I%27m%20interested%20in%20your%20Data%20Analytics%20Diploma"
+                      href="https://pluralcode.academy/admissions/"
                       className="ptcolor text-decoration-none"
                     >
                       Enroll Now
@@ -373,7 +373,7 @@ const Certificate = () => {
                 data-aos="zoom-in-up"
                 data-aos-duration="2000"
               >
-                <a href="https://wa.me/2347083153185?text=I'm%20interested%20in%20your%20Product%20Cloud%20Computing">
+                <a href="https://pluralcode.academy/admissions/">
                   <Logo src={frame10} className="w-100" />
                 </a>
                 <div className="pt-3 d-flex flex-column">
@@ -387,7 +387,7 @@ const Certificate = () => {
                   <div className="d-flex align-items-center">
                    
                     <a
-                      href="https://wa.me/2347083153185?text=I'm%20interested%20in%20your%20Product%20Cloud%20Computing"
+                      href="https://pluralcode.academy/admissions/"
                       className="ptcolor text-decoration-none"
                     >
                       Enroll Now
@@ -401,7 +401,7 @@ const Certificate = () => {
                 data-aos="zoom-in-up"
                 data-aos-duration="2000"
               >
-                <a href="https://wa.me/2347040910513?text=I'm%20interested%20in%20your%20Full%20Stack%20Course">
+                <a href="https://pluralcode.academy/admissions/">
                   <Logo src={frame11} className="w-100" />
                 </a>
                 <div className="pt-3 d-flex flex-column">
@@ -415,7 +415,7 @@ const Certificate = () => {
                   <div className="d-flex align-items-center">
                  
                     <a
-                      href="https://wa.me/2347040910513?text=I'm%20interested%20in%20your%20Full%20Stack%20Course"
+                      href="https://pluralcode.academy/admissions/"
                       className="ptcolor text-decoration-none"
                     >
                       Enroll Now
@@ -430,7 +430,7 @@ const Certificate = () => {
                 data-aos="zoom-in-up"
                 data-aos-duration="2000"
               >
-                <a href="https://wa.me/2347083153185?text=I'm%20interested%20in%20your%20Product%20Design%20Course">
+                <a href="https://pluralcode.academy/admissions/">
                   <Logo src={dip} className="w-100" />
                 </a>
                 <div className="pt-3 d-flex flex-column">
@@ -444,7 +444,7 @@ const Certificate = () => {
                   <div className="d-flex align-items-center">
                    
                     <a
-                      href="https://wa.me/2347083153185?text=I'm%20interested%20in%20your%20Product%20Design%20Course"
+                      href="https://pluralcode.academy/admissions/"
                       className="ptcolor text-decoration-none"
                     >
                       Enroll Now
@@ -458,7 +458,7 @@ const Certificate = () => {
                 data-aos="zoom-in-up"
                 data-aos-duration="2000"
               >
-                <a href="https://wa.me/2349120733972?text=I%27m%20interested%20in%20your%20Data%20Analytics%20Diploma">
+                <a href="https://pluralcode.academy/admissions/">
                   <Logo src={dip1} className="w-100" />
                 </a>
                 <div className="pt-3 d-flex flex-column">
@@ -472,7 +472,7 @@ const Certificate = () => {
                   <div className="d-flex align-items-center">
                    
                     <a
-                      href="https://wa.me/2349169190508?text=I'm%20interested%20in%20your%20Project%20Management%20Course"
+                      href="https://pluralcode.academy/admissions/"
                       className="ptcolor text-decoration-none"
                     >
                       Enroll Now
@@ -485,7 +485,7 @@ const Certificate = () => {
                 data-aos="zoom-in-up"
                 data-aos-duration="2000"
               >
-                <a href="https://wa.me/2349134244201?text=I'm%20interested%20in%20your%20Product%20Business%20Analytics">
+                <a href="https://pluralcode.academy/admissions/">
                   <Logo src={dip2} className="w-100" />
                 </a>
                 <div className="pt-3 d-flex flex-column">
@@ -499,7 +499,7 @@ const Certificate = () => {
                   <div className="d-flex align-items-center">
                  
                     <a
-                      href="https://wa.me/2349134244201?text=I'm%20interested%20in%20your%20Product%20Business%20Analytics"
+                      href="https://pluralcode.academy/admissions/"
                       className="ptcolor text-decoration-none"
                     >
                       Enroll Now
@@ -513,7 +513,7 @@ const Certificate = () => {
                 data-aos="zoom-in-up"
                 data-aos-duration="2000"
               >
-                <a href="https://wa.me/2347040910513?text=I'm%20interested%20in%20your%20Cyber%20Security%20Course">
+                <a href="https://pluralcode.academy/admissions/">
                   <Logo src={dip3} className="w-100" />
                 </a>
                 <div className="pt-3 d-flex flex-column">
@@ -527,7 +527,7 @@ const Certificate = () => {
                   <div className="d-flex align-items-center">
                     
                     <a
-                      href="https://wa.me/2347040910513?text=I'm%20interested%20in%20your%20Cyber%20Security%20Course"
+                      href="https://pluralcode.academy/admissions/"
                       className="ptcolor text-decoration-none"
                     >
                       Enroll Now
