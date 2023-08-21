@@ -40,7 +40,7 @@ const Certificate = () => {
           </li>
           <li className="nav-item" role="presentation">
             <button
-              className="nav-link py-3"
+              className="nav-link py-3 "
               id="pills-home-tab"
               data-bs-toggle="pill"
               data-bs-target="#pills-home"

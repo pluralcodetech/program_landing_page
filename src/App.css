@@ -757,7 +757,6 @@ select {
     border: none;
     background-color: green;
   } */
-  
   .upperw{
     width: 100%;
   }
@@ -1184,7 +1183,7 @@ select {
     top: -48.5%;
   }
   #pills-home-tab, #pills-profile-tab{
-    font-size: 12px; padding: 5px;
+    font-size: 10px; padding: 7px;
   }
   select{
     background-position: right 12% top 1em, right 10px top 1em;
