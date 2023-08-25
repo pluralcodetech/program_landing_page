@@ -1166,7 +1166,7 @@ select {
   }
   
 }
-@media (min-width:280px) and (max-width:350px) {
+@media (min-width:280px) and (max-width:360px) {
   .encol{
     flex-direction: column;
   }
@@ -1183,7 +1183,7 @@ select {
     top: -48.5%;
   }
   #pills-home-tab, #pills-profile-tab{
-    font-size: 10px; padding: 7px;
+    font-size: 14px; padding: 7px;
   }
   select{
     background-position: right 12% top 1em, right 10px top 1em;
